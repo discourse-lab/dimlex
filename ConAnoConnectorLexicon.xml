@@ -1,0 +1,1774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?relations relSet="Martin1992"?>
+<!DOCTYPE conanolex SYSTEM "ConAnoLex.dtd">
+<conanolex>
+  <entry id="1">
+    <orth type="cont">
+      <part type="single">aber</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>Er ist gross, *aber* seine Frau ist klein.</example>
+        <example>Peter ist (zwar) klug, *aber* faul.</example>
+      </sem>
+      <sem>
+        <coh-relation>concession</coh-relation>
+        <example>Er ist gross, aber er kann nicht Basketball spielen.</example>
+        <example>Die Kollegin ist krank, *aber* sie arbeitet.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="2">
+    <orth type="cont">
+      <part type="single">allein</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>concession</coh-relation>
+        <example>(AMBIG) Die Botschaft hoer ich wohl, mir fehlt *allein* der Glaube.</example>
+        <example>(AMBIG) Die Botschaft hoer ich wohl, *allein* mir fehlt der Glaube.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="3">
+    <orth type="cont">
+      <part type="single">allenfalls</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>In der Regel handelt der Taeter rasch und kurz entschlossen. *Allenfalls* wendet er wenige Stunden fuer die Vorbereitung und Durchfuehrung seiner Tat auf.</example>
+        <example>Er wendet *allenfalls* wenige Stunden fuer die Vorbereitung und Durchfuehrung seiner Tat auf.</example>
+        <example>(NO CONN) Wenige Stunden *allenfalls* wendet er fuer die Vorbereitung und Durchfuehrung seiner Tat auf.</example>
+        <example>Wenige Stunden wendet er fuer die Vorbereitung und Durchfuehrung seiner Tat auf, *allenfalls*.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="4">
+    <orth type="cont">
+      <part type="single">allerdings</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>concession</coh-relation>
+        <example>Es ist nicht direkt geheim, *allerdings* wuerde ich es nicht ueberall herumerzaehlen.</example>
+        <example>Ich wuerde es *allerdings* nicht ueberall herumerzaehlen.</example>
+        <example>ueberall *allerdings* wuerde ich es nicht herumerzaehlen.</example>
+        <example>*Allerdings*, ich wuerde es nicht ueberall herumerzaehlen.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="5">
+    <orth type="cont">
+      <part type="single">als</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>simultaneous</coh-relation>
+        <example>*Als* sie die Wohnung bereits verlassen hatte, kam der Anruf .</example>
+        <example>Der Anruf kam, *als* sie die Wohnung bereits verlassen hatte.</example>
+        <example>Der Frosch wollte, *als* er gegessen hatte, im Bett der Koenigstochter schlafen.</example>
+      </sem>
+      <sem>
+        <coh-relation>cause</coh-relation>
+        <example>Sie ist umso aengstlicher, *als* sie schon zweimal durch die Fahrpruefung gefallen ist.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="6">
+    <orth type="cont">
+      <part type="single">also</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>Radio gab es damals noch nicht. *Also* mussten die Heilbronner warten, bis sie am naechsten Montag von dem Signal erfuhren.</example>
+        <example>Ich fand am linken Bein unterhalb des Knies eine weitere Verbrennung, dort muss *also* der Strom den Koerper wieder verlassen haben.</example>
+        <example>Um Grundsaetze und Ideen streiten sich ja die Menschen seit alters her [...]. Darum *also* beulen wir die Backen mit der Zungenspitze aus und schneiden Grimassen.</example>
+        <example>Ich hab sie und ihre drei Freunde auf deine Kosten zur Brotzeit eingeladen. *Also* geh zu und lass mich nicht im Stich.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="7">
+    <orth type="cont">
+      <part type="single">andererseits</part>
+    </orth>
+    <orth type="cont">
+      <part type="single">andrerseits</part>
+    </orth>
+    <orth type="discont">
+      <part type="single">einerseits</part>
+      <part type="single">andererseits</part>
+    </orth>
+    <orth type="discont">
+      <part type="single">einerseits</part>
+      <part type="single">andrerseits</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>Sabeth glaubte nicht, dass ich nichts davon verstehe, und hatte *einerseits* ein massloses Vertrauen zu mir, bloss weil man dreissig Jahre aelter ist, ein kindisches Vertrauen, anderseits ueberhaupt keinen Respekt.</example>
+        <example>Der Gesetzgeber demonstriert damit einerseits scheinbar Harte, tut *andererseits* aber niemandem wirklich weh.</example>
+        <example>Von den Bulgaren *anderseits*, hat die englische Sun herausgefunden, dass sie 'von breakfast bis zur bed-time im Militaerstil gedrillt werden'.</example>
+        <example>Dass dieser boeswillige Unsinn durchaus geeignet sein kann, insbesondere Eltern und Schueler gegen die Anwohner zu aktivieren, *einerseits*, und andererseits die Planer und Politiker ermuntert, gegenueber uns reaktionaeren Spiessern ueberhaupt keine Ruecksichten zu ueben, liegt leider auf der Hand.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="8">
+    <orth type="cont">
+      <part type="single">andernfalls</part>
+    </orth>
+    <orth type="cont">
+      <part type="single">anderenfalls</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>Der 15jaehrige muss sich beugen, *andernfalls* gibt es was aufs Maul.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="9">
+    <orth type="cont">
+      <part type="single">ansonsten</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>Der EDV-Kurs musste leider abgesagt werden. *Ansonsten* konnten alle Angebote durchgefuehrt werden.</example>
+        <example>Alle Angebote konnten *ansonsten* durchgefuehrt werden.</example>
+        <example>Nur der moeglichen Brandgefahr hat der Verein interveniert. Die Aktivitaet *ansonsten* hat der Verein begruesst.</example>
+        <example>Und die dumpfen bayerischen Dorfrocker [...] schienen geradewegs der Rumpelkammer des Jugendprogramm-Archivs entsprungen. *Ansonsten*: Ein harmloses Filmchen mit schoenen Naturbildern und Happy-End.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="10">
+    <orth type="cont">
+      <part type="single">anstatt</part>
+    </orth>
+    <syn type="praepositional">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>*Anstatt* des Kindes, schickte er den Grossvater.</example>
+        <example>*Anstatt* zu kommen, blieb er lieber im Bett.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="11">
+    <orth type="cont">
+      <part type="phrasal">anstatt dass</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>*Anstatt dass* du hier herumsitzt, koenntest du ja wirklich mal Staub wischen.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="12">
+    <orth type="cont">
+      <part type="phrasal">anstelle dessen</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>Hier und da wurden erste Rufe nach 'Bowie' laut. *Anstelle dessen* kamen New Model Army und Rage Against The Machine.</example>
+        <example>Bei besagter Grillparty gab es kein Fleisch. Es kamen *anstelle dessen* Vegiburger und Tofuwuerste auf den Grill.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="13">
+    <orth type="cont">
+      <part type="single">auch</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Klaus ist schon wieder nicht da. Auch hat er das Training verpasst.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="14">
+    <orth type="cont">
+      <part type="single">aufgrund</part>
+    </orth>
+    <orth type="cont">
+      <part type="phrasal">auf Grund</part>
+    </orth>
+    <syn type="prepositional">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>*Aufgrund* der schlechten Witterung bleibt der St. Gotthard geschlossen.</example>
+        <example>Eine Schliessung *aufgrund* schlechter Witterung wird in Erwaegung gezogen.</example>
+        <example>Einen typisch deutschen Nonsens *aufgrund* von Prinzipienreiterei nennt der Praesident der Berliner Aerztekammer diese Einschraenkung.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="15">
+    <orth type="cont">
+      <part type="phrasal">aufgrund dessen</part>
+    </orth>
+    <orth type="cont">
+      <part type="phrasal">auf Grund dessen</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>Ihre Vorlesung fiel aus, *aufgrund dessen* hatte sie frei.</example>
+        <example>Der Vorwurf, *aufgrund dessen* Alain Patrice N. am 21. April festgehalten wurde, lautete Erschleichen von Leistungen.</example>
+        <example>Der dortige Verkehrsverbund zaehlte morgens in den Bussen meist ueber 100 Fahrgaeste. Er entschloss sich *aufgrund dessen* fuer den Einsatz weiterer Verkehrsmittel.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="16">
+    <orth type="cont">
+      <part type="phrasal">aufgrunddessen, dass</part>
+    </orth>
+    <orth type="cont">
+      <part type="phrasal">auf Grund dessen, dass</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>*Aufgrund dessen, dass* die Stuetzpfeiler verfault sind, muss das Fundament ganz neu konzipiert werden.</example>
+        <example>Denn *aufgrund dessen, dass* sich diese Vereinigung von Kleinbetrieben ganz offensichtlich aus jungen und junggebliebenen Mitgliedern zusammensetzt, macht sie sich auch bei der Jugend im Dorf glaubwuerdig und attraktiv.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="17">
+    <orth type="cont">
+      <part type="phrasal">aus diesem Grund</part>
+    </orth>
+    <orth type="cont">
+      <part type="phrasal">aus diesem Grunde</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>*Aus diesem Grunde* wird das Kaufhaus voraussichtlich erst gegen 11.30 Uhr geoeffnet.</example>
+        <example>Er plaediert nicht nur *aus diesem Grunde* dafuer, beide Projekte zu verwirklichen.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="18">
+    <orth type="cont">
+      <part type="phrasal">ausser</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>Im Falle einer Scheidung bekommt das Sorgerecht die Mutter, *ausser* der Richter entscheidet anders.</example>
+        <example>Morgen fahre ich in die Berge, *ausser* das Wetter spielt nicht mit.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="19">
+    <orth type="cont">
+      <part type="phrasal">ausser dass</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>Es gibt keinen anderen Ausweg, *ausser dass* wir ihn um Hilfe bitten.</example>
+        <example>*Ausser dass* er gestern abgereist ist, habe ich nichts in Erfahrung bringen koennen.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="20">
+    <orth type="cont">
+      <part type="single">ausserdem</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Ich habe keine Lust ins Kino zu gehen, *ausserdem* bin ich muede.</example>
+        <example>Hermann bittet *ausserdem* um etwas zu essen.</example>
+        <example>Splitt verursacht weniger Rostschaeden an Autos als Streusalz. Es ist *ausserdem* umweltfreundlicher.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="21">
+    <orth type="cont">
+      <part type="phrasal">ausser wenn</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>concession</coh-relation>
+        <example>Sie ist stets gut gelaunt, *ausser wenn* sie nicht ausgeschlafen hat.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="22">
+    <orth type="cont">
+      <part type="single">beispielsweise</part>
+    </orth>
+    <orth type="cont">
+      <part type="single">bspw.</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Andere Theorien werden gehandelt. *Beispielsweise* koennte die Sonne schuld sein, die in den letzten Jahren besonders intensiv gestrahlt hat.</example>
+        <example>In Ecuador gingen die Behoerden *beispielsweise* gegen Indianervoelker vor, die gegen oelprojekte protestieren.</example>
+        <example>Geschmaecker sind bekanntlich verschieden. Mir *beispielsweise* gefallen keine Maenner mit Schnauzer.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="23">
+    <orth type="cont">
+      <part type="single">bevor</part>
+    </orth>
+    <orth type="discont">
+      <part type="single">bevor</part>
+      <part type="single">nicht</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>successive</coh-relation>
+        <example>Ich gehe nie schlafen, *bevor* ich *nicht* gruendlich gelueftet habe.</example>
+        <example>*Bevor* die Stunde beginnt, nehmen die Schueler die Buecher und Hefte heraus.</example>
+        <example>Die Studentin arbeitet eine Gliederung aus, *bevor* sie den Aufsatz niederschreibt.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="24">
+    <orth type="cont">
+      <part type="single">beziehungsweise</part>
+    </orth>
+    <orth type="cont">
+      <part type="single">bzw.</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Sie wussten, dass sie verloren hatten *bzw.* dass keine Aussichten mehr auf einen Sieg bestanden</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="25">
+    <orth type="cont">
+      <part type="single">da</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>*Da* die Saengerin ploetzlich erkrankt ist, muss das Konzert ausfallen.</example>
+        <example>Der Ort ist sehr ruhig, *da* er abseits von den grossen Strassen liegt.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="26">
+    <orth type="cont">
+      <part type="single">dabei</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>concession</coh-relation>
+        <example>Immer wieder ging sie bei Glatteis spazieren. *Dabei* war sie oft genug vor der Glaette gewarnt worden.</example>
+        <example>*Dabei*: Sie war oft genug vor der Glaette gewarnt worden.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="27">
+    <orth type="cont">
+      <part type="single">dadurch</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>Gestern habe ich zuviel Wein getrunken. *Dadurch* habe ich heute furchtbare Kopfschmerzen.</example>
+        <example>Gestern habe ich zuviel Wein getrunken. Heute habe ich *dadurch* furchtbare Kopfschmerzen.</example>
+        <example>Gestern habe ich zuviel Wein getrunken. Heute habe ich furchtbare Kopfschmerzen *dadurch*.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="28">
+    <orth type="cont">
+      <part type="phrasal">dadurch, dass</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>*Dadurch, dass* es mir gelungen ist, diese Stadt in ein EU-Foerderprogramm aufzunehmen, haben wir jetzt neue Moeglichkeiten.</example>
+        <example>Wir haben jetzt neue Moeglichkeiten *dadurch, dass* es mir gelungen ist, diese Stadt in ein EU-Foerderprogramm aufzunehmen.</example>
+        <example>Wir haben jetzt *dadurch, dass* es mir gelungen ist, diese Stadt in ein EU-Foerderprogramm aufzunehmen, neue Moeglichkeiten.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="29">
+    <orth type="cont">
+      <part type="single">dafuer</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>Sein Oldtimer ist in ausgezeichnetem Zustand. *Dafuer* hat er aber auch eine Menge Geld gekostet.</example>
+        <example>Sein Oldtimer ist in ausgezeichnetem Zustand. Er hat *dafuer* aber auch eine Menge Geld gekostet.</example>
+        <example>Rotschwaenze sind sehr selten geworden. Mehr Kleiber *dafuer* gibt es in Langen.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="30">
+    <orth type="cont">
+      <part type="phrasal">dafuer, dass</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>*Dafuer, dass* sie schon so alt ist, sieht sie aber noch sehr jugendlich aus.</example>
+        <example>Sie sieht aber noch sehr jugendlich aus, *dafuer, dass* sie schon so alt ist.</example>
+        <example>Sie sieht aber, *dafuer, dass* sie schon so alt ist, noch sehr jugendlich aus.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="31">
+    <orth type="cont">
+      <part type="single">dagegen</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>Einen Unternehmer, der noch keine Haelse abgeschnitten hat, darf man nicht Halsabschneider nennen. *Dagegen* darf ein Anwalt in einem Schriftsatz einen Abmahnverein als Absahnhai bezeichnen.</example>
+        <example>Stoiber ist schon Grossvater aus eigenem Samen, Schroeder *dagegen* liess bisher andere fuer sich arbeiten.</example>
+        <example>Allgemeine Zustimmung fand *dagegen* ein aehnlich kritischer, aber kuerzerer Bericht zur Einhaltung der Anti-Diskriminierungskonvention unter der chilenischen Militaerjunta.</example>
+        <example>Turnierfechten wird dabei nicht aussterben, aber es wird nur im Ghetto der Fans stattfinden, weil es im Fernsehen nicht vermittelbar ist. *Dagegen*: Alles was Spektakel ist, wird Karriere machen.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="32">
+    <orth type="cont">
+      <part type="single">daher</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>Sie hatte noch nicht gegessen. *Daher* fuehlte sie sich geschwaecht.</example>
+        <example>Sie hatte noch nicht gegessen und fuehlte sich *daher* geschwaecht.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="33">
+    <orth type="cont">
+      <part type="single">danach</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>successive</coh-relation>
+        <example>Tomaten mit einem scharfen Messer einritzen und mit heissem Wasser uebergiessen. *Danach* kann man sie problemlos haeuten.</example>
+        <example>Der Anteil des juedischen Buergern geraubten Goldes hat *danach* einen Wert von zwei Milliarden Dollar.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="34">
+    <orth type="cont">
+      <part type="single">dann</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>successive</coh-relation>
+        <example>In zwei Wochen ziehen wir um. *Dann* wird alles besser.</example>
+        <example>Gegner ist *dann* die Bundesliga-Mannschaft von Arminia Bielefeld.</example>
+        <example>So meinte etwa jene Teilnehmerin, die sich fuer einen Mostbecher entschied: 'Naechstes Jahr *dann* nehme ich den Mostkrug.'</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="35">
+    <orth type="cont">
+      <part type="single">darauf</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>successive</coh-relation>
+        <example>Er erlangte am Lehrerseminar Rorschach das Primarlehrerpatent und unterrichtete *darauf* einige Jahre in Kaltbrunn.</example>
+        <example>Beide setzten sich mit mir in Verbindung. Ich habe ihnen *darauf* vorgeschlagen, eine solche Karte zu produzieren.</example>
+        <example>Das Land hat seine sozialen Aufwendungen erheblich erhoeht. Die Armutsgrenze sank *darauf* von 49 auf 16 Prozent.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="36">
+    <orth type="cont">
+      <part type="single">daraufhin</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>successive</coh-relation>
+        <example>Klein-Krotzenburg gab *daraufhin* das Mittelfeld preis und liess den Moerlenbachern Platz fuer ihr schnelles und geradliniges Spiel.</example>
+        <example>*Daraufhin* wollten auch die Banken bei der Finanzierung nicht mehr mitziehen.</example>
+        <example>Die Klaegerin wuenschte, dass die Gesellschaft vor ihm geschuetzt werde. Der Beschuldigte brach *daraufhin* in Traenen aus.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="37">
+    <orth type="cont">
+      <part type="phrasal">darueber hinaus</part>
+    </orth>
+    <orth type="cont">
+      <part type="single">darueberhinaus</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Tagsueber werden die Artikel staendig aktualisiert. *Darueber hinaus* enthaelt die elektronische Ausgabe weiteres Hintergrundmaterial.</example>
+        <example>Sie haben *darueber hinaus* Zugang zu Informationen der deutschen Botschaften.</example>
+        <example>Fuer mich liegt der Erfolg des Buchs an der sorgfaeltigen Arbeit. *Darueber hinaus*: Es wird die spuerbare Liebe zur Stadt deutlich.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="38">
+    <orth type="cont">
+      <part type="single">darum</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>Hohe Fixkosten schmaelern jedoch die Gewinne. *Darum* sind einige Staatshotels an der Mittelmeerkueste im vergangen Sommer in die Schusslinie der Kritik geraten.</example>
+        <example>Seine Frau telefonierte *darum* immer oefter und ausgiebiger mit ihrer Freundin.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="39">
+    <orth type="cont">
+      <part type="phrasal">das heisst</part>
+    </orth>
+    <orth type="cont">
+      <part type="phrasal">d.h.</part>
+    </orth>
+    <syn type="coordinating">
+      <sem>
+        <coh-relation>reformulation</coh-relation>
+        <example>Du solltest das Buch mal lesen, *das heisst*, du solltest es nicht nur im Regal stehen haben.</example>
+        <example>Durch das Abschneiden des Flusses von den Oberrheinauen zwischen Basel und Iffezheim gingen 130 Quadratkilometer, *das heisst* rund 60 Prozent der vormals vorhandenen ueberschwemmungsflaeche verloren.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="40">
+    <orth type="cont">
+      <part type="single">demgegenueber</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>Die gerade stattfindenden Doping-Prozess gegen DDR- Trainer sieht Krenz ebenfalls 'die Siegerjustiz' am Werke, die 'uralte Rechnungen' begleichen wuerde. *Demgegenueber* wirkt selbst die FAZ wie ein Hort der Aufklaerung.</example>
+        <example>'Afrikanische Literatur ist eine Performance', erklaerte Hove dieses Phaenomen. Europaeische Literatur ist *demgegenueber* eine intellektuelle uebung.</example>
+        <example>In seiner Animation laesst er Tiere aus dem Zoo zu Wort kommen, die sich ueber das englische Wetter auslassen. Die anderen Filme *demgegenueber* fallen ein bisschen ab.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="41">
+    <orth type="cont">
+      <part type="single">denn</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>Das Konzert muss ausfallen, *denn* die Saeerin ist erkrankt.</example>
+        <example>Die Blumen auf dem Balkon sind erfroren, *denn* es hat heute nacht Frost gegeben.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="43">
+    <orth type="cont">
+      <part type="single">dennoch</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>concession</coh-relation>
+        <example>Insgesamt 23 der Riesenjets vom Typ Boing 747 wurden durch Unfall oder Sabotage zu Totalverlusten. *Dennoch* gilt die 747 unter Piloten als zuverlaessiges und gutmuetiges Fluggeraet.</example>
+        <example>Ein deutscher Superlativ soll es *dennoch* werden.</example>
+        <example>Die Feuerwerkskoerper richteten keinen nennenswerten Schaden an. *Dennoch*: 800 Mal musste das Rote Kreuz bei kleineren Brandwunden helfen.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="44">
+    <orth type="cont">
+      <part type="single">desweiteren</part>
+    </orth>
+    <orth type="cont">
+      <part type="phrasal">des Weiteren</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Der Tuerke an der Ecke hat den Vorteil, dass man den Doener von Tellern essen darf. Er hat *des Weiteren* den Vorteil, dass man freundlich gegruesst wird.</example>
+        <example>*Des weiteren* wurde das Buerogebaeude am Gewerbegebiet 1991 bezogen.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="45">
+    <orth type="cont">
+      <part type="single">desgleichen</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Einzelheiten ueber die Modalitaeten einer Wirtschafts- und Waehrungsreform gab es nicht, *desgleichen* wartete man vergebens auf Vorstellungen der Bundesregierung darueber, wie die sozialen Folgen dieser uebernahme bewaeltigt werden koennten.</example>
+        <example>Und sie kamen ueber ganz aegyptenland und liessen sich nieder an allen Orten in aegypten, so sehr viel, dass zuvor *desgleichen* nie gewesen ist...</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="46">
+    <orth type="cont">
+      <part type="single">deshalb</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>Die neue Trasse zwischen Koeln und Frankfurt ist zur Zeit im Bau. *Deshalb* errichten sowohl Montabaur als auch Limburg einen ICE-Bahnhof.</example>
+        <example>Er moechte *deshalb* aus der Kirche austreten, trotzdem aber weiterhin der Glaubensgemeinschaft seiner Kirche angehoeren.</example>
+        <example>Unehrlichkeit hat das gegenseitige Vertrauen oft schwer belastet. *Deshalb*: Schlechte Nachrichten duerfen nicht tabuisiert werden.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="47">
+    <orth type="cont">
+      <part type="single">dessenungeachtet</part>
+    </orth>
+    <orth type="cont">
+      <part type="phrasal">dessen ungeachtet</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>concession</coh-relation>
+        <example>Beide Seiten kuendigten ein zweites Treffen fuer Dienstag an. *Dessenungeachtet* gingen die Kaempfe in dem Land auch am Montag weiter.</example>
+        <example>Nun habe die Staatsanwaltschaft die Rueckgabe der beschlagnahmten Exemplare angeordnet. Das Ermittlungsverfahren gegen den Verlag wird *dessenungeachtet* fortgesetzt.</example>
+        <example>Er hatte die innenpolitische Lage seiner Heimat nicht richtig eingeschaetzt. Doch *dessen ungeachtet*: er waere unter jeden Umstaenden dorthin zurueckgekehrt.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="48">
+    <orth type="cont">
+      <part type="single">deswegen</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>Ausserdem flog dieses medizinische Geschoss mal zwanzig, mal wieder fuenfunddreissig Meter weit, und *deswegen* trafen wir sehr selten.</example>
+        <example>Er wollte sich der Verantwortung stellen, und kandidierte *deswegen* erneut.</example>
+        <example>Auch die heilende Wirkung von pflanzlichen Praeparaten kann sich auf Dauer ins Gegenteil verkehren. *Deswegen*: Sie sollten unbedingt den Beipackzettel beachten.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="49">
+    <orth type="cont">
+      <part type="single">doch</part>
+    </orth>
+    <orth type="cont">
+      <part type="single">jedoch</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>Der Fluss der Historie wirkte wie eingefroren. *Jedoch* sind nun die Dinge fast heillos ins Treiben geraten.</example>
+        <example>Inzwischen hat sich *jedoch* fuer den Heimatforscher einiges geaendert.</example>
+        <example>Adorno *jedoch* liefert nicht nur eine Wirkungsaesthetik des Erhabenen, sondern schreibt zugleich eine Entwicklungsgeschichte erhabener Kunst.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="50">
+    <orth type="cont">
+      <part type="single">ebenfalls</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Der Nutzer laedt sich die Namen der Institute auf den Schirm. Er kann sich *ebenfalls* die Adressen und Telefonnummern ausgeben lassen.</example>
+        <example>*Ebenfalls* nicht bespielbar ist der suedliche der beiden Hartplaetze: Dioxinverseuchter Belag ist die Ursache.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="51">
+    <orth type="cont">
+      <part type="single">ebensowenig</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Einem zentralistischen Ansatz wuerden sich die Hochschulen 'mit Entschiedenheit widersetzen'. *Ebensowenig* liessen sie sich als 'Reparaturanstalten fuer Managementfehler in den Regionen' missbrauchen.</example>
+        <example>Als offene Plattform bietet sie Widerstandsprojekten Zugang zum Internet und nimmt als kritische Kulturinititiative *ebensowenig* ein Blatt vor den Mund.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="52">
+    <orth type="cont">
+      <part type="single">entgegen</part>
+    </orth>
+    <syn type="prepositional">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>Im 4. Quartal 1990 seien die oelvorraete *entgegen* dem Saisontrend nicht abgebaut, sondern aufgestockt worden.</example>
+        <example>*Entgegen* bisheriger Annahmen werden manche Wirkstoffmolekuele beim Kochen und Braten nicht vollstaendig zerstoert.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="53">
+    <orth type="cont">
+      <part type="single">oder</part>
+    </orth>
+    <orth type="discont">
+      <part type="single">entweder</part>
+      <part type="single">oder</part>
+    </orth>
+    <syn type="coordinating">
+      <sem>
+        <coh-relation>alternation</coh-relation>
+        <example>Du kannst ihm schreiben, *oder* du kannst ihn auch anrufen.</example>
+        <example>Wir reden immer von der Kritik, *oder* wir reden nur von den Leuten, die meinen, die Kritik bestimmen zu koennen.</example>
+        <example>*Entweder* du isst jetzt deine Suppe, *oder* du darfst nicht fernsehen.</example>
+        <example>*Entweder* ist es ironisch gemeint *oder* man hat ihn dazu gezwungen.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="54">
+    <orth type="cont">
+      <part type="single">ergo</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>*Ergo* muss, wer T-mobil ueber D1 surfen will, bis zu 68 Pfennig pro Minute berappen.</example>
+        <example>Selfmademan, Golden Boy - das klingt so gar nicht franzoesisch, ist *ergo* verdaechtig.</example>
+        <example>Das geht am schnellsten, wenn Hertha BSC moeglichst bald in einem internationalen Wettbewerb mitspielen kann. *Ergo*: Verstaerkungen sind unerlaesslich.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="55">
+    <orth type="cont">
+      <part type="single">falls</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>condition</coh-relation>
+        <example>*Falls* er nach Dresden kommt, besucht er uns.</example>
+        <example>Nimm einen Schirm mit, *falls* es regnet.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="56">
+    <orth type="cont">
+      <part type="single">ferner</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>*Ferner* sind die Verluste nicht durchgaengig, beispielsweise sind alle Grossbanken im Plus.</example>
+        <example>Geplant sind *ferner* Sonntagsbrunchs, Jazz-Fruehschoppen und Sommernachtskino.</example>
+        <example>Es fehlt eine praezise Anordnung, dass ausschliesslich bei 'dringendem Tatverdacht' ermittelt werden darf. *Ferner*: Wann eigentlich darf belauscht werden?</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="57">
+    <orth type="cont">
+      <part type="single">folglich</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>Die Zahl der serbischen Neusiedler war nicht so hoch wie die der muslimischen Fluechtlinge. *Folglich* siegten die Moslems.</example>
+        <example>Pro eingesetzter Mark ist der Gewinn dann *folglich* fuenf Pfennig also fuenf Prozent.</example>
+        <example>Ohne Presseecho auszukommen, ist fuer die Kuenstler noch schlimmer als eine negative Kritik. *Folglich*: 'Man muss lernen, mit ihnen (den Kritikern) zu leben.'</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="58">
+    <orth type="cont">
+      <part type="single">gleichwohl</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>concession</coh-relation>
+        <example>*Gleichwohl* sehen Diplomaten in Jakarta darin einen Hinweis, die indonesische Regierung wolle ihren schlechten internationalen Ruf aufpolieren.</example>
+        <example>Die juengsten Wirtschaftsdaten zeigen *gleichwohl*, dass Amerika noch immer in der Rezession steckt.</example>
+        <example>Das Medikament kann einige Symptome bessern, aber es kann nichts zu seiner Rettung tun. Der Arzt *gleichwohl* verschreibt ein Rezept.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="59">
+    <orth type="cont">
+      <part type="single">hierauf</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>successive</coh-relation>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="60">
+    <orth type="cont">
+      <part type="single">hierdurch</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>Einen Antrag der Telefongesellschaft Talkline wies die Regulierungsbehoerde fuer Telekommunikation und Post zurueck. *Hierdurch* werde die Monopolstellung der Telekom festgeschrieben, kritisierte Talkline.</example>
+        <example>Aber dieses Erdoel wurde raffiniert und als Benzin in den Westen verkauft; in manchen Jahren kam *hierdurch* ein Drittel der freien Devisen herein.</example>
+        <example>Der Konzern verkaufte die Sparten Kohle, Schrott und Logistik. Die Zahl der Stellen verringerte sich um 10 000 *hierdurch*.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="61">
+    <orth type="cont">
+      <part type="single">hiernach</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>successive</coh-relation>
+        <example>(NO CONN) Die Beschaeftigung von Studenten ist *hiernach* versicherungs- und beitragsfrei.</example>
+        <example>*Hiernach* gab es eine groessere Anzahl unterschiedlicher Hominiden in Afrika als bisher gedacht.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="62">
+    <orth type="cont">
+      <part type="single">hingegen</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>Kanzlerkandidat Edmund Stoiber (CSU) sprach *hingegen* von 'einem Scheitern von Rot-Gruen'.</example>
+        <example>Die Reise nach Mallorca *hingegen* bindet den Schenkenden und die Beschenkte fuer zwei Wochen aneinander.</example>
+        <example>Im Sommersemester wieder wird ihm schon mal vorgeworfen, er sei launenhaft. *Hingegen* andere Studenten schaetzen den Mann als voellig 'i.O.'.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="63">
+    <orth type="cont">
+      <part type="single">indem</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>manner</coh-relation>
+        <example>Du kannst ihm eine Freude bereiten, *indem* du ihn besuchst.</example>
+        <example>*Indem* die Tonbandprotokolle zum Material der Komposition werden, geht ihr dokumentarischer Wert verloren.</example>
+        <example>Scalfaro aber bleibt weise: 'Kranke heilt man nicht, *indem* man sie umbringt.'</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="64">
+    <orth type="cont">
+      <part type="single">infolge</part>
+    </orth>
+    <syn type="prepositional">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>*Infolge* der schlechten Witterung bleibt der St. Gotthard geschlossen.</example>
+        <example>Eine Schliessung *infolge* schlechter Witterung wird in Erwaegung gezogen.</example>
+        <example>Gesundheitliche Schaeden bei Polizisten *infolge* von Castor-Transporten sollen in Zukunft auch in Berlin als Dienstunfaelle gelten.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="65">
+    <orth type="cont">
+      <part type="single">infolgedessen</part>
+    </orth>
+    <orth type="cont">
+      <part type="phrasal">infolge dessen</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>*Infolgedessen* hat die Zahl der arbeitslosen Bauarbeiter einen Rekordstand erreicht.</example>
+        <example>Die Bautaetigkeit werde sich *infolgedessen* in den naechsten Jahren verringern.</example>
+        <example>Dem Konzern war im Sommer vorgeworfen worden, die Jahresumsaetze nach unten geschoent zu haben. Die Staatsanwaltschaft *infolgedessen* ermittelt gegen die Verantwortlichen.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="66">
+    <orth type="cont">
+      <part type="single">insofern</part>
+    </orth>
+    <orth type="discont">
+      <part type="single">insofern</part>
+      <part type="single">als</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Er ist uns nuetzlich gewesen, *insofern* er gelegentlich Beitraege beigesteuert hat.</example>
+      </sem>
+    </syn>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>oede ist dieses Buch nie, *insofern* wird er seinem Gegenstand vollkommen gerecht.</example>
+        <example>Die Verwaltung der Schecks lag bei Eva Grosz - *insofern*: es trifft zu, dass ihr Sohn Peter sie beerbt hat.</example>
+        <example>Ich gebe dir auch *insofern* recht: Wir haben von der Schwarz-Gruen-Debatte enorm profitiert.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="70">
+    <orth type="cont">
+      <part type="single">mithin</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>Als Geissler sich rechtfertigte, er habe wegen seines Gleitschirmunfalls nicht am Wahlkampf teilgenommen, *mithin* koenne er nicht fuer CDU-Verluste verantwortlich gemacht werden, fiel ihm ein wild gestikulierender Kohl ins Wort.</example>
+        <example>Ausserdem stimmte die Mehrheit der Uniformierten in oeffentlichen Wahllokalen ab - ihr Votum sei *mithin* gar nicht ueberpruefbar.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="71">
+    <orth type="cont">
+      <part type="single">nachdem</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>successive</coh-relation>
+        <example>*Nachdem* ich in der Stadt angekommen war, suchte ich mir zuerst ein Hotelzimmer.</example>
+        <example>Er wird die Stelle als Bereichsleiter uebernehmen, *nachdem* er seine Dissertation verteidigt hat.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="72">
+    <orth type="cont">
+      <part type="single">naemlich</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>Die Aehnlichkeit ist nicht weiter verwunderlich. Die beiden sind *naemlich* Schwestern.</example>
+      </sem>
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Gestern passierte etwas lustiges. *Naemlich* das Kabarett wurde geschlossen wegen eines Liedes, dessen Refrain einer Eigentuemlichkeit in der Sprechweise der Sachverwalterperson aehnelte.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="74">
+    <orth type="cont">
+      <part type="single">nichtsdestoweniger</part>
+    </orth>
+    <orth type="cont">
+      <part type="single">nichtsdestotrotz</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>concession</coh-relation>
+        <example>Das Konzert hatte dem Publikum sehr gut gefallen. An einigen schnellen Laeufen waren *nichtsdestoweniger* noch stoerende Unsicherheiten zu hoeren.</example>
+        <example>*Nichtsdestoweniger*, Ordnung existiert, und unser eigenes Leben auf dem Planeten Erde, die Zivilisation und Technologie beweisen, dass unter gewissen Bedingungen die Ordnung sich spontan aus dem Chaos entwickeln kann.</example>
+        <example>Die SPD zeigte sich ueber den Vorgang sehr veraergert. *Nichtsdestotrotz* loeste der Brief erneut grosse Nervositaet in der Staatskanzlei aus.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="75">
+    <orth type="cont">
+      <part type="phrasal">nur dass</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>concession</coh-relation>
+        <example>Im Urlaub war es sehr schoen, *nur dass* es manchmal sehr heiss war.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="76">
+    <orth type="cont">
+      <part type="single">ob</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>condition</coh-relation>
+        <example>*Ob* es regnet, *ob* es schneit, wir machen den Ausflug.</example>
+        <example>*Ob* es regnet oder schneit, wir machen den Ausflug.</example>
+        <example>*Ob* es regnet oder *ob* es schneit, wir machen den Ausflug.</example>
+      </sem>
+    </syn>
+    <syn type="prepositional">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>*Ob* dieser Worte gerieten sie in Streit.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="77">
+    <orth type="cont">
+      <part type="single">obendrein</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>In der Tuerkei waere er allein, *obendrein* wuerde ihn zunaechst der Wehrdienst erwarten.</example>
+        <example>Wenn ich seinen Diebstahl dem Herrn anzeige, kriege ich eine Belohnung und er wird *obendrein* noch bestraft.</example>
+        <example>Viele Tierheime sind nach dem Erlass ueberfuellt. Kampfhunde *obendrein* sind schwer vermittelbar.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="78">
+    <orth type="cont">
+      <part type="single">obgleich</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>concession</coh-relation>
+        <example>*Obgleich* Greff verheiratet war, war er mehr ein Pfadfinderfuehrer denn ein Ehemann.</example>
+        <example>Doch Blatter, das Chamaeleon, stuerzte nicht, *obgleich* er im Zusammenhang mit jener 'Wahl' mehrfach die Unwahrheit von sich gab.</example>
+        <example>Er uebt, *obgleich* er leidend ist, noch viele Funktionen aus.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="79">
+    <orth type="cont">
+      <part type="single">obschon</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>concession</coh-relation>
+        <example>Ivy hatte drei Stunden lang auf mich eingeschwatzt, *obschon* sie wusste, dass ich grundsaetzlich nicht heirate.</example>
+        <example>Baptist und Sabeth reden weiterhin ueber van Gogh, Lewin und ich reden ueber Dieselmotoren, wobei ich, *obschon* in Dieselmotoren interessiert, das Maedchen nicht aus den Augen lasse.</example>
+        <example>*Obschon* er hinten sass, wo es ihn hin und her schleuderte, pfiff er wie ein Bub.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="80">
+    <orth type="cont">
+      <part type="single">obwohl</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>concession</coh-relation>
+        <example>Wir verloren das Spiel, *obwohl* wir uns gut vorbereitet hatten.</example>
+        <example>*Obwohl* es regnet, gehe ich in den Park.</example>
+        <example>Ich gehe in den Park, *obwohl* es regnet.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="81">
+    <orth type="cont">
+      <part type="single">obzwar</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>concession</coh-relation>
+        <example>Dadurch ist die Anstrengung zum Beispiel des 10-Meilen-Rekordes groesser als die eines Grand Prix, *obzwar* die ganze Angelegenheit nur rund zwei Minuten vierzig Sekunden dauert.</example>
+        <example>Drei Tenoere (*obzwar* optisch nicht ganz so knackig) erklimmen die Popcharts, Scharen von Teenies stroemen zu 'Carmen' oder 'Carmina burana'.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="82">
+    <orth type="cont">
+      <part type="single">ohnedies</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Im Sommer ist mir Marokko viel zu heiss. Ich leide *ohnedies* unter Flugangst.</example>
+        <example>Wer in jenen Tagen an Russlands erfolgreichem Tschetschenienbezwinger Kritik uebte, lief Gefahr, sich unbeliebt zu machen. *Ohnedies* stand fest, dass Putin den zweiten Wahlgang gewinnen wuerde.</example>
+        <example>Da er *ohnedies* geht, setzt er nun mit seinem Entschluss ein wichtiges Zeichen.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="83">
+    <orth type="cont">
+      <part type="single">ohnehin</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>*Ohnehin* wollen die Muehlheimer nicht in auswaertige Spieler investieren, sondern eine 'echte' Muehlheimer Mannschaft bilden.</example>
+        <example>Waehrend unseres Sommerurlaubs wird der Kater immer von den Nachbarn versorgt. Die fahren im Juli *ohnehin* nie weg.</example>
+        <example>Es hatte keinen Sinn zu luegen. *Ohnehin*, sie wusste sehr genau, wie es um ihn stand.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="84">
+    <orth type="cont">
+      <part type="single">seitdem</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>successive</coh-relation>
+        <example>Der Vulkan war letzten Sommer wieder aktiv geworden. Er spuckte *seitdem* mehrmals Asche und Dampf.</example>
+        <example>1948 waren sie zum ersten Mal in Bruegge. *Seitdem* fahren sie fast jedes Jahr einmal hin.</example>
+        <example>Sein Bruder brachte ihn noch zum Heidelberger Hauptbahnhof. *Seitdem* ist er verschwunden und hat nichts mehr von sich hoeren lassen.</example>
+      </sem>
+    </syn>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>successive</coh-relation>
+        <example>*Seitdem* ich die Alpen kenne, will ich dort immer wieder hin.</example>
+        <example>Ich will immer wieder in die Alpen, *seitdem* ich sie kenne.</example>
+        <example>Ich will, *seitdem* ich die Alpen kenne, dort immer wieder hin.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="85">
+    <orth type="cont">
+      <part type="single">seit</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>successive</coh-relation>
+        <example>*Seit* ich die Alpen kenne, will ich dort immer wieder hin.</example>
+        <example>Ich will immer wieder in die Alpen, *seit* ich sie kenne.</example>
+        <example>Ich will, *seit* ich die Alpen kenne, dort immer wieder hin.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="86">
+    <orth type="cont">
+      <part type="single">seither</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>successive</coh-relation>
+        <example>1948 waren sie das erste Mal in Bruegge. *Seither* fahren sie fast jedes Jahr wieder hin.</example>
+        <example>Hat sie vorher noch ueberwiegend Portraits gemalt, so beschaeftigt sie sich *seither* mit Landschaftsmalerei und Tierdarstellungen.</example>
+        <example>Vor einigen Monaten wurde die Stadtruine platt gemacht; das Gelaende liegt brach *seither*.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="87">
+    <orth type="cont">
+      <part type="single">so</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>condition</coh-relation>
+        <example>*So* er wieder gesund ist, wird er in ferne Laender reisen.</example>
+        <example>Er wird in ferne Laender reisen, *so* er wieder gesund ist.</example>
+        <example>Er wird, so er wieder gesund ist, in ferne Laender reisen.</example>
+        <example>*So* sch?i euch auch ist, ich muss jetzt unbedingt gehen.</example>
+        <example>Ich kann dir das Geld nicht geben, *so* leid es mir auch tut.</example>
+      </sem>
+    </syn>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Doch die Stadtplaner haben dazugelernt. *So* haben Studien gezeigt, dass grosszuegige Raeume das Wohlbefinden unter der Erde steigern.</example>
+        <example>(NO CONN) Die neue Programmversion hat einiges zu bieten. Nutzer koennen *so* mit einfachem Mausklick ganze Dateien einbinden.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="89">
+    <orth type="cont">
+      <part type="single">sobald</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>simultaneous</coh-relation>
+        <example>*Sobald* man ihm den kleinen Finger gibt, nimmt er die ganze Hand.</example>
+        <example>Er wird uns Bescheid geben, *sobald* er genauere Informationen hat.</example>
+        <example>*Sobald* sie uns sahen, liefen sie davon.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="90">
+    <orth type="cont">
+      <part type="single">sodann</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>successive</coh-relation>
+        <example>*Sodann* vergleicht der explantierende Arzt mit dem KT die spenderrelevanten Daten.</example>
+        <example>Dieser Betrag war der Dame zu hoch; deshalb zahlte sie nicht. Ihr wurde *sodann* eine erste, zweite und dritte Mahnung zugeschickt.</example>
+        <example>Sie stehen zwischen zwei sehr verzierten, mit uebereinander gestellten tanzenden Kindern geschmueckten Pilastern. Alle Flaechen *sodann* deuten auf die gluecklichsten Familienverhaeltnisse.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="91">
+    <orth type="cont">
+      <part type="phrasal">so dass</part>
+    </orth>
+    <orth type="cont">
+      <part type="single">sodass</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>Er hinkte, *so dass* er nur langsam laufen kann.</example>
+        <example>Das Kind hatte Fieber, *so dass* es im Bett bleiben musste.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="93">
+    <orth type="cont">
+      <part type="single">sofern</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>condition</coh-relation>
+        <example>*Sofern* Hans kommt, gehen wir noch heute aus.</example>
+        <example>Er will am Institut bleiben, *sofern* er die Stelle als Oberassistent erhaelt.</example>
+        <example>*Sofern* du nichts besseres vorhast: kommst du morgen mit ins Kino?</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="94">
+    <orth type="cont">
+      <part type="single">somit</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>Auf den Kandidaten Mueller fielen 16 von 16 Stimmen. *Somit* ist er einstimmig fuer das Amt des Kassenwartes bestaetigt.</example>
+        <example>Der Verwaltungsleiter bestaetigte einige Unregelmaessigkeiten in der Buchfuehrung. Einer Entlassung stand *somit* nichts im Wege.</example>
+        <example>*Somit* koenne live aus jeder Ecke von Barcelona Berichte gesendet werden.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="95">
+    <orth type="cont">
+      <part type="single">sondern</part>
+    </orth>
+    <syn type="coordinating">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>Er kaufte sich vom Lottogewinn kein Auto, *sondern* machte mehrere Auslandsreisen.</example>
+        <example>Die Entscheidung ist ihm nicht leicht gefallen, *sondern* er hat sich viele Gedanken dazu gemacht.</example>
+        <example>Er blieb nicht einmal stehen, um sich umzuschauen, *sondern* lief so schnell er konnte um die naechste Ecke.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="96">
+    <orth type="cont">
+      <part type="single">sonst</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>Jeder muss an seinem Platz bleiben, bis auf Abruf. *Sonst* wuerden ja alle durcheinanderpurzeln!</example>
+        <example>Bitterlich weinend erzaehlte der Junge, dass er bessere Noten nach Hause bringen muesse. Sein Vater wolle *sonst* nichts mehr von ihm wissen.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="97">
+    <orth type="cont">
+      <part type="single">soweit</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>condition</coh-relation>
+        <example>*Soweit* ich unterrichtet bin, findet der Sommerkurs dieses Jahr im August statt.</example>
+        <example>Er wollte seiner Frau diese Enttaeuschung ersparen, *soweit* es moeglich war.</example>
+        <example>Denn die Ost-Berliner Buerger steigen, *soweit* sie es bezahlen koennen, lieber in einen Mercedes [...].</example>
+      </sem>
+    </syn>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Vor der Wahl stellen Regierung wie Opposition kraeftige Erhoehungen von Kindergeld und Erziehungsgeld in Aussicht. *Soweit* ist das alles nichts Neues.</example>
+        <example>Das Neugeborene wog 2600 Gramm bei einer Laenge von 46 Zentimetern. *Soweit* ein ganz normales, freudiges Ereignis.</example>
+        <example>Um dem bedrohlichen Waldsterben entgegen zu wirken, bleibt nur die Reduzierung der Luftschadstoffe. Die Politiker sind sich alle einig *soweit*.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="98">
+    <orth type="cont">
+      <part type="single">spaeter</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>successive</coh-relation>
+        <example>Es gab ein ausgiebiges Abendessen und gute Gespraeche. *Spaeter* wurde getanzt.</example>
+        <example>Als die ersten Feuerwehrleute eintrafen, 'quoll der Rauch bereits aus allen Fenstern und Fugen', berichtete der stellvertretende Stadtbrandinspektor Michael Haub *spaeter* am Einsatzort.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="99">
+    <orth type="cont">
+      <part type="single">statt</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>*Statt* dass du hier herumzusitzt solltest du dich mal um deine Schwester kuemmern.</example>
+      </sem>
+    </syn>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>*Statt* einen Baukasten hat sie eine Puppe bekommen.</example>
+        <example>*Statt* fuer Puppen interessiert sie sich fuer Baukaesten.</example>
+        <example>Sie hat einfach sein Auto verschenkt, *statt* ihm vorher etwas zu sagen.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="100">
+    <orth type="cont">
+      <part type="single">trotz</part>
+    </orth>
+    <syn type="prepositional">
+      <sem>
+        <coh-relation>concession</coh-relation>
+        <example>Wir fahren *trotz* des schlechten Wetters.</example>
+        <example>Eine zweite Pantherin hat bis zum 67. Lebensjahr gearbeitet, um *trotz* niedrigstem Stundenlohn einen Rentenanspruch zu erwerben.</example>
+        <example>*Trotz* sommerlicher Hitze lief die Heizung auf vollen Touren.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="101">
+    <orth type="cont">
+      <part type="single">trotzdem</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>concession</coh-relation>
+        <example>Einen praktischen Nutzen als Hausteiere haben Katzen heute nicht mehr. *Trotzdem* sind sie ueberaus beliebt.</example>
+        <example>Im Hochtaunuskreis hat 1995 nur in 20 Faellen einer der beiden Betroffenen seine Zustimmung verweigert. Die Ehen wurden *trotzdem* geschieden.</example>
+        <example>Eigentlich war fuer heute gutes Wetter angesagt. *Trotzdem*: Es regnet in Stroemen.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="102">
+    <orth type="cont">
+      <part type="single">ueberdies</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Von 14 Uhr an koennen die Besucher nicht nur schlemmen und schmausen, sondern auch diskutieren. *Ueberdies* ist eine Tombola geplant.</example>
+        <example>40 Prozent der Bundesbuerger sparen nur fuer den kurzfristigen Konsum und nicht fuers Alter. Zwei Millionen Haushalte sind *ueberdies* stark verschuldet.</example>
+        <example>Der Hundebesitzer weigerte sich, den Hund an die Leine zu nehmen. Mit Ohrfeigen *ueberdies* drohte er.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="103">
+    <orth type="cont">
+      <part type="single">und</part>
+    </orth>
+    <orth type="cont">
+      <part type="single">Und</part>
+    </orth>
+    <syn type="coordinating">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Die Sonne schien, *und* die Voegel zwitscherten.</example>
+        <example>Im Gebirge schneit es *und* in der Ebene faellt nur noch Regen.</example>
+        <example>Carla hat einen gruenen *und* Janka einen roten Pullover an.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="104">
+    <orth type="cont">
+      <part type="single">unterdessen</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>simultaneous</coh-relation>
+        <example>*Unterdessen* wird die in der Seefahrt so erfolgreiche Idee der Volks-AG nun auch in anderen Zweigen der Transportbranche erprobt.</example>
+        <example>Die Armee, die fuer die Sicherheit am Wahltag zustaendig ist, stellt *unterdessen* gemischte Einheiten aus Christen und Moslems auf.</example>
+        <example>Nach zweiwoechigen Massenstreiks haben die Bergleute die Arbeit wieder aufgenommen. Die Streiks in den Nachbarrevieren *unterdessen* haben sich erheblich ausgeweitet.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="105">
+    <orth type="cont">
+      <part type="single">vielmehr</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>Trotz seiner Wunden ist er nicht mehr im Krankenhaus. *Vielmehr* liegt er gemuetlich mit einem Glas Rotwein auf dem Sofa.</example>
+        <example>Die Berufshaftpflicht haftet nicht in jedem Fall. Man muss *vielmehr* zwischen geschaeftlichen und privaten Wegen unterscheiden.</example>
+        <example>Auch der Wunsch nach dem Wechsel entspringt nicht der Sehnsucht nach Rot-Gruen. *Vielmehr*: Die Leute wollen, dass das schwarz-gelbe Chaos, das sich Regierung nennt, aufhoert.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="106">
+    <orth type="cont">
+      <part type="phrasal">vorausgesetzt, dass</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>condition</coh-relation>
+        <example>*Vorausgesetzt, dass* es keine Absicht war, hat man es bei der Verwechslung mit krimineller Nachlaessigkeit zu tun.</example>
+        <example>230 Jahre lang sollen Sammler davon Stuecke nachkaufen koennen - *vorausgesetzt, dass* es die KPM so lange gibt.</example>
+        <example>Er wuerde auch noch im Himmel - *vorausgesetzt, dass* der Berliner in den Himmel kommt - um viere 'was vorhaben'.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="107">
+    <orth type="cont">
+      <part type="single">vorher</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>succession</coh-relation>
+        <example>Im Herbst soll das neue Album von Zachary Richard erscheinen. *Vorher* geht er erstmals in Deutschland auf Tour.</example>
+        <example>Es ist ratsam, den Text *vorher* gruendlich zu lesen.</example>
+        <example>Morgen fliege ich nach Spanien. Es gibt noch vieles zu erledigen *vorher*.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="109">
+    <orth type="cont">
+      <part type="single">waehrend</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>simultaneous</coh-relation>
+        <example>*Waehrend* es regnete, sassen wir in einer Gaststaette.</example>
+        <example>Der Vorfall ereignete sich, *waehrend* ich verreist war.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="110">
+    <orth type="cont">
+      <part type="single">waehrenddessen</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>simultaneous</coh-relation>
+        <example>Applaus brandet unter den nach Polizeischaetzungen 120.000 Zusehern auf. *Waehrenddessen* wird eine Gruppe von 150 Gegendemonstranten am Rathausplatz von einem starken Polizeiaufgebot streng im Auge behalten.</example>
+        <example>Die Kinder spielten im Garten. Die Erwachsenen diskutierten *waehrenddessen* das Wahlergebnis.</example>
+        <example>Ein Krankenwagen schlaengelte sich mit Blaulicht durch den dichten Verkehr. Einige Passanten *waehrenddessen* bemuehten sich um den Gestuerzten.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="112">
+    <orth type="discont">
+      <part type="single">weder</part>
+      <part type="single">noch</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Gestern hat es *weder* geregnet, *noch* hat die Sonne geschienen.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="113">
+    <orth type="cont">
+      <part type="single">wegen</part>
+    </orth>
+    <syn type="prepositional">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>*Wegen* einer privaten Feier bleibt das Lokal heute geschlossen.</example>
+        <example>In zwei Faellen wird *wegen* Mordes ermittelt.</example>
+        <example>Er werde jedoch nicht *wegen* dem Mord an dem Modeschoepfer Gianni Versace gesucht, sondern wegen Verdachts auf Steuerhinterziehung und Betrug.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="114">
+    <orth type="cont">
+      <part type="single">weil</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>Der Wagen begann zu schleudern, *weil* die Strasse ueberfroren war.</example>
+        <example>*Weil* er nichts sehen will, sieht er nichts.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="115">
+    <orth type="cont">
+      <part type="single">weiterhin</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Er stand den ganzen Tag am Fliessband und musste einen Metallstift in eine oese stecken. *Weiterhin* hatte er nichts zu tun.</example>
+        <example>Die Gewerbesteuereinnahmen waren auch dieses Jahr sehr niedrig. Die Gemeinde muss also *weiterhin* sparen.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="116">
+    <orth type="cont">
+      <part type="single">wenn</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>condition</coh-relation>
+        <example>*Wenn* man auf den Knopf drueckt, oeffnet sich die Tuer von selbst.</example>
+        <example>Ich werde ihn auf jeden Fall besuchen, *wenn* er wieder gesund ist.</example>
+        <example>*Wenn* du mich fragst, ich wuerde die Finger davon lassen.</example>
+        <example>*Wenn* alle da sind, gehen wir los.</example>
+        <example>Er klingelt jedesmal dann bei mir, *wenn* er zur Arbeit geht.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="117">
+    <orth type="discont">
+      <part type="single">wenn</part>
+      <part type="single">auch</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>concession</coh-relation>
+        <example>*Wenn auch* einige nicht gekommen waren, so gabe es doch viel Spass auf dem Abschiedsabend.</example>
+        <example>Er setzt nie eine Muetze auf, *auch wenn* es sehr kalt ist.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="118">
+    <orth type="cont">
+      <part type="single">wenngleich</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>concession</coh-relation>
+        <example>Der Palast gibt uns auch heute noch eine Idee der damaligen Groesse, *wenngleich* er grossteils verfallen ist.</example>
+        <example>*Wenngleich* das Programm fuer europaeische Ohren manchmal etwas ungewohnt war, so eroberten doch musikalisches Engagement und technische Fertigkeit des Orchesters im Sturm die Herzen des Publikums.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="119">
+    <orth type="cont">
+      <part type="single">weshalb</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>Vor gut zehn Jahren machte man die Entdeckung, dass hoher Blutdruck guenstig auf Rauwolfia-Alkaloide an sprach, *weshalb* zur Zeit fast kein blutdrucksenkendes Medikament darauf verzichtet.</example>
+        <example>Und sie liess den Leser nicht lange im Zweifel, *weshalb* er sich flugs wappnen soll.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="120">
+    <orth type="cont">
+      <part type="single">weswegen</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>Das Wetter war sehr schlecht, *weswegen* sie statt zu wandern eine Ausstellung besuchten.</example>
+        <example>Es regnete, und ich stand auf dem Oberdeck, als das fremde Maedchen mit dem roetlichen Rossschwanz ueber die Bruecke ging, Gepaeck in beiden Haenden, *weswegen* sie nicht winken konnte.</example>
+        <example>(NO CONN) Ich wusste nicht, *weswegen* er anrief.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="121">
+    <orth type="cont">
+      <part type="single">wie</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>simultaneous</coh-relation>
+        <example>*Wie* die Kinder den Schneemann sahen, liefen sie sofort zu ihm hin.</example>
+        <example>Die beiden Katzen stuerzten ihr entgegen, *wie* sie die Tuer oeffnete.</example>
+      </sem>
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>*Wie* er mir vorhin gesagt hat, hat er mich gestern mehrmals vergeblich angerufen.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="122">
+    <orth type="cont">
+      <part type="single">wogegen</part>
+    </orth>
+    <orth type="cont">
+      <part type="single">wohingegen</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>Zuwaechse erzielte vor allem das Stammhaus, *wogegen* der Gewinn in den Filialen eher stagnierte.</example>
+        <example>Das Vorsorgedenken vieler ostdeutscher Haushalte findet seinen Ausdruck in hoeheren Einzahlungen bei Bausparkassen, *wogegen* die Lebensversicherung in Ostdeutschland fast keinen Anklang findet.</example>
+        <example>Sie hat studiert, *wohingegen* ihre beiden Brueder ein Handwerk gelernt haben.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="123">
+    <orth type="cont">
+      <part type="single">womit</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>Hier hast du zwanzig Mark, *womit* die Sache wohl bereinigt sein duerfte.</example>
+        <example>Der Preis einer Karte betraegt zwei DM, *womit* sie gegenueber fuenf Einzelfahrten nicht billiger ist.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="124">
+    <orth type="cont">
+      <part type="single">wonach</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>successive</coh-relation>
+        <example>Sie wanderten fuenf Stunden lang im Nieselregen, *wonach* alle einen Punsch zum Aufwaermen brauchten.</example>
+        <example>Endlich fand er, *wonach* er jahrelang gesucht hatte.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="125">
+    <orth type="cont">
+      <part type="single">worauf</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>successive</coh-relation>
+        <example>Die Musiker packten ihre Instrumente ein, *worauf* das Publikum endlich den Saal verliess.</example>
+        <example>Der Koenig entscheidet, dass das Kind in der Mitte geteilt werden soll, *worauf* die eine Frau freiwillig auf ihr Kind verzichtet, es dann aber doch bekommt.</example>
+        <example>Mit dem Ellbogen traf er 17 Sekunden vor dem Abpfiff unterm Korb einen Giessener Spieler an der Brust, *worauf* ihn der Schiedsrichter vom Feld schickte.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="126">
+    <orth type="cont">
+      <part type="single">woraufhin</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>successive</coh-relation>
+        <example>Der Boxer stolperte hilflos in die Seile, *woraufhin* der Ringrichter die Begegnung abbrach.</example>
+        <example>Der Jockey des favorisierten Pferdes war aus dem Sattel gestuerzt, *woraufhin* Tausende Zuschauer, die auf das Tier gewettet hatten, in Wut gerieten.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="127">
+    <orth type="cont">
+      <part type="single">zudem</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Splitt verursacht weniger Rostschaeden an Autos als Streusalz. *Zudem* ist es umweltfreundlicher.</example>
+        <example>Die Konzerte und Theaterauffuehrungen finden an der Uferpromenade statt. Sonntagsbrunch und Sommernachtskino sind *zudem *geplant.</example>
+        <example>*Zudem*, das DDR- Grenzsicherungsgesetz gab es 1964 noch nicht.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="128">
+    <orth type="cont">
+      <part type="single">zugleich</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>*Zugleich* sind die Hypothekenzinsen auf 7,84 Prozent und damit den niedrigsten Stand in 19 Jahren gesunken.</example>
+        <example>Sie sagte, sie wolle sich direkt an die Basis in Mitte und Prenzlauer Berg wenden. Sie kritisierte *zugleich* das Vorgehen des Bundesvorstandes.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="129">
+    <orth type="cont">
+      <part type="phrasal">zum Beispiel</part>
+    </orth>
+    <orth type="cont">
+      <part type="single">z.B.</part>
+    </orth>
+    <orth type="cont">
+      <part type="single">z.Bsp.</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Viktor war sich sicher, dass das Leben zu seiner kleinen Schwester freundlicher war als zu ihm. *Zum Beispiel* kriegte sie im Sommer keinen Sonnenbrand.</example>
+        <example>Deshalb wurden *zum Beispiel* etliche Moebel fuer das 'Forsthaus' von ortsansaessigen Schreinern gefertigt.</example>
+        <example>Ein Angestellter *zum Beispiel* schreibt ueber seinen Untergebenen: 'Jeden Donnerstag verweigert er die ueberstunden und sagt, er habe private Verpflichtungen.'</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="130">
+    <orth type="cont">
+      <part type="single">zumal</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>Die Strassenumbenennungen in Goerlitz sind weiterhin ungeklaert. In den Neubauvierteln wird es *zumal* bei den alten Strassennamen bleiben.</example>
+        <example>Ein Verlag ist nicht einfach eine Buchfabrik. *Zumal* bei Surkamp steht das Buechermachen und -verkaufen fuer eine ganze Kultur.</example>
+      </sem>
+    </syn>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>Er gewann immer mehr Vorsprung, *zumal* die Kraefte seines Verfolgers offensichtlich nachliessen.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="132">
+    <orth type="cont">
+      <part type="single">zusaetzlich</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>addition</coh-relation>
+        <example>In der ersten Phase ist geplant, Fahrbahnmarkierungen anzubringen und Hinweisschilder aufzustellen. *Zusaetzlich* erhalten die Fussgaenger breitere Gehwege.</example>
+        <example>In den Behoerden wird die personelle Situation zunehmend schlechter. Es mangelt *zusaetzlich* an modernen Arbeitsgeraeten.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="133">
+    <orth type="cont">
+      <part type="single">zuvor</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>successive</coh-relation>
+        <example>*Zuvor* waren zwei Ex-Bundesligaprofis an der Aufgabe gescheitert.</example>
+        <example>Er war *zuvor* aber nach Suedamerika gereist, um Erfahrungen zu sammeln und dort lebt er noch heute.</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="134">
+    <orth type="cont">
+      <part type="single">zwar</part>
+    </orth>
+    <orth type="discont">
+      <part type="single">zwar</part>
+      <part type="single">aber</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>concession</coh-relation>
+        <example>*Zwar* habe ich im Fach Mathematik Abitur gemacht, aber was Differentialrechnung ist, weiss ich auch nicht mehr so genau.</example>
+        <example>Die Bar hatte *zwar* geoeffnet, aber er trank sein Bier trotzdem lieber zu Hause.</example>
+        <example>*Zwar*: Eine Vielzahl von Mitarbeitern des kommunalen Verkehrsamtes freilich moegen diese Meinung nicht so ohne weiteres teilen.</example>
+      </sem>
+    </syn>
+  </entry>
+  <!-- additions by Christian Chiarcos, chiarcos@uni-potsdam.de, 2011-04-01 -->
+  <entry id="135">
+    <orth type="cont">
+      <part type="single">schliesslich</part> 
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>consequence</coh-relation>
+        <example>TODO</example>
+      </sem>
+      <sem>
+        <coh-relation>succession</coh-relation>
+        <example>TODO</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="136">
+    <orth type="cont">
+      <part type="single">stattdessen</part>
+    </orth>
+    <orth type="cont">
+      <part type="phrasal">statt dessen</part>
+    </orth>
+    <syn type="adverbial">
+      <sem>
+        <coh-relation>contrast</coh-relation>
+        <example>TODO</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="137">
+    <orth type="discont">
+      <part type="single">wenn</part>
+      <part type="single">dann</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>condition</coh-relation>
+        <example>TODO</example>
+      </sem>
+    </syn>
+  </entry>
+  <entry id="139">
+    <orth type="cont">
+      <part type="single">um</part>
+    </orth>
+    <orth type="discont">
+      <part type="single">um</part>
+      <part type="single">zu</part>
+    </orth>
+    <syn type="subordinating">
+      <sem>
+        <coh-relation>purpose</coh-relation>
+        <example>TODO</example>
+      </sem>
+    </syn>
+  </entry>
+</conanolex>

@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary indentification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/DimLex.dtd
+
+--><!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE dimlex SYSTEM "DimLex.dtd">
+
+    <dimlex>
+    ...
+    </dimlex>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT referierend EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT kopulativ EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT konsekutiv EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT konzessiv EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT komitativ EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT konditional EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT komparativ (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT konj EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT alternativ EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT restriktiv-conditional EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT restriktiv EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT einzel EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT padv (satzklammer|nachnachfeld|nullstelle|nachfeld|nacherst|mittelfeld|vorfeld)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ersatz EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT substitutiv EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT kasus (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT praep (kasus|post|ante)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT kontrastiv EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT postp EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT spezifizierung EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT modal (komparativ|restriktiv|spezifizierung)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT spezifizierend EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT kausal EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT vorzeitigkeit EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nachzeitigkeit EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT gleichzeitigkeit EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT aspect (#PCDATA)>
+<!ATTLIST aspect
+    scope CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT aktionsart (#PCDATA)>
+<!ATTLIST aktionsart
+    scope CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT interval (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT temporal (vorzeitigkeit|nachzeitigkeit|gleichzeitigkeit|aspect|aktionsart|interval)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT desintegr (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT subj EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nintegr (konj|postp|subj)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT beispiel (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT relation (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT hbfunktion (kopulativ|konzessiv|konsekutiv|konditional|kausal|alternativ|ersatz|modal|temporal|adversativ)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT adversativ EMPTY>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT grfunktion (referierend|kopulativ|konsekutiv|adversativ|temporal|kausal|spezifizierend|kontrastiv|substitutiv|restriktiv|restriktiv-conditional|alternativ|komparativ|konditional|komitativ|konzessiv)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT sem (beispiel|relation|hbfunktion|grfunktion)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT insert (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT post (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT ante (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT abfolge (desintegr|insert|post|ante)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT satzklammer (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nachnachfeld (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nullstelle (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nachfeld (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nacherst (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT mittelfeld (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT vorfeld (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT konnadv (satzklammer|nachnachfeld|nullstelle|nachfeld|nacherst|mittelfeld|vorfeld)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT integr (padv|konnadv)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT konn (einzel|nintegr|integr)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT kat (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT syn (praep|sem|abfolge|konn|kat)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT part (#PCDATA)>
+<!ATTLIST part
+    type CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT orth (part)*>
+<!ATTLIST orth
+    type CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT eintrag (syn|orth)*>
+<!ATTLIST eintrag
+    id CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT dimlex (eintrag)*>
