@@ -1,4 +1,4 @@
-# dimlex
+# DiMLex
 
 A German Lexicon of discourse markers. 
 
