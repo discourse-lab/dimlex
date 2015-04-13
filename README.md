@@ -1,6 +1,6 @@
 # DiMLex
 
-A German Lexicon of discourse markers. 
+A Lexicon of German discourse markers. 
 
 This repository contains two versions of the lexicon.
 `DimLex.xml` contains the 'original' version.
