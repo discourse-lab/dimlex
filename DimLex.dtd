@@ -1,210 +1,125 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml encoding="UTF-8"?>
 
-<!--
-    TODO define vocabulary indentification
-    PUBLIC ID: -//vendor//vocabulary//EN
-    SYSTEM ID: http://server/path/DimLex.dtd
+<!ELEMENT dimlex (entry)+>
+<!ATTLIST dimlex
+  xmlns CDATA #FIXED ''>
 
---><!--
-    An example how to use this DTD from your XML document:
+<!ELEMENT entry (orths,disambi,focuspart,correlate,non_conn_reading,
+                 stts,syn+)>
+<!ATTLIST entry
+  xmlns CDATA #FIXED ''
+  edit NMTOKEN #IMPLIED
+  id NMTOKEN #REQUIRED
+  word CDATA #REQUIRED>
 
-    <?xml version="1.0"?>
+<!ELEMENT orths (orth)+>
+<!ATTLIST orths
+  xmlns CDATA #FIXED ''>
 
-    <!DOCTYPE dimlex SYSTEM "DimLex.dtd">
+<!ELEMENT disambi (conn_d,sem_d)>
+<!ATTLIST disambi
+  xmlns CDATA #FIXED ''>
 
-    <dimlex>
-    ...
-    </dimlex>
--->
+<!ELEMENT focuspart (#PCDATA)>
+<!ATTLIST focuspart
+  xmlns CDATA #FIXED ''>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT referierend EMPTY>
+<!ELEMENT correlate ((is_correlate,has_correlate)?,correlatee?)>
+<!ATTLIST correlate
+  xmlns CDATA #FIXED ''>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT kopulativ EMPTY>
+<!ELEMENT non_conn_reading (#PCDATA|example)*>
+<!ATTLIST non_conn_reading
+  xmlns CDATA #FIXED ''>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT konsekutiv EMPTY>
+<!ELEMENT stts (example)*>
+<!ATTLIST stts
+  xmlns CDATA #FIXED ''>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT konzessiv EMPTY>
+<!ELEMENT syn (cat,praep?,ordering?)>
+<!ATTLIST syn
+  xmlns CDATA #FIXED ''>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT komitativ EMPTY>
+<!ELEMENT orth (part)+>
+<!ATTLIST orth
+  xmlns CDATA #FIXED ''
+  canonical CDATA #REQUIRED
+  onr NMTOKEN #REQUIRED
+  type NMTOKEN #REQUIRED>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT konditional EMPTY>
+<!ELEMENT conn_d (#PCDATA)>
+<!ATTLIST conn_d
+  xmlns CDATA #FIXED ''
+  edit NMTOKEN #IMPLIED>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT komparativ (#PCDATA)>
+<!ELEMENT sem_d (#PCDATA)>
+<!ATTLIST sem_d
+  xmlns CDATA #FIXED ''
+  edit NMTOKEN #IMPLIED>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT konj EMPTY>
+<!ELEMENT is_correlate (#PCDATA)>
+<!ATTLIST is_correlate
+  xmlns CDATA #FIXED ''>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT alternativ EMPTY>
+<!ELEMENT has_correlate (#PCDATA)>
+<!ATTLIST has_correlate
+  xmlns CDATA #FIXED ''>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT restriktiv-conditional EMPTY>
+<!ELEMENT correlatee (corr)+>
+<!ATTLIST correlatee
+  xmlns CDATA #FIXED ''>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT restriktiv EMPTY>
+<!ELEMENT cat (#PCDATA)>
+<!ATTLIST cat
+  xmlns CDATA #FIXED ''>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT einzel EMPTY>
+<!ELEMENT praep (ante,post,circum,case+)>
+<!ATTLIST praep
+  xmlns CDATA #FIXED ''>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT padv (satzklammer|nachnachfeld|nullstelle|nachfeld|nacherst|mittelfeld|vorfeld)*>
+<!ELEMENT ordering ((ante,post)?,insert?,desintegr?)>
+<!ATTLIST ordering
+  xmlns CDATA #FIXED ''
+  edit NMTOKEN #IMPLIED>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT ersatz EMPTY>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT substitutiv EMPTY>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT kasus (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT praep (kasus|post|ante)*>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT kontrastiv EMPTY>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT postp EMPTY>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT spezifizierung EMPTY>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT modal (komparativ|restriktiv|spezifizierung)*>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT spezifizierend EMPTY>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT kausal EMPTY>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT vorzeitigkeit EMPTY>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT nachzeitigkeit EMPTY>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT gleichzeitigkeit EMPTY>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT aspect (#PCDATA)>
-<!ATTLIST aspect
-    scope CDATA #IMPLIED
-  >
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT aktionsart (#PCDATA)>
-<!ATTLIST aktionsart
-    scope CDATA #IMPLIED
-  >
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT interval (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT temporal (vorzeitigkeit|nachzeitigkeit|gleichzeitigkeit|aspect|aktionsart|interval)*>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT desintegr (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT subj EMPTY>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT nintegr (konj|postp|subj)*>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT beispiel (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT relation (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT hbfunktion (kopulativ|konzessiv|konsekutiv|konditional|kausal|alternativ|ersatz|modal|temporal|adversativ)*>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT adversativ EMPTY>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT grfunktion (referierend|kopulativ|konsekutiv|adversativ|temporal|kausal|spezifizierend|kontrastiv|substitutiv|restriktiv|restriktiv-conditional|alternativ|komparativ|konditional|komitativ|konzessiv)*>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT sem (beispiel|relation|hbfunktion|grfunktion)*>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT insert (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT post (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT ante (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT abfolge (desintegr|insert|post|ante)*>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT satzklammer (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT nachnachfeld (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT nullstelle (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT nachfeld (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT nacherst (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT mittelfeld (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT vorfeld (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT konnadv (satzklammer|nachnachfeld|nullstelle|nachfeld|nacherst|mittelfeld|vorfeld)*>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT integr (padv|konnadv)*>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT konn (einzel|nintegr|integr)*>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT kat (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT syn (praep|sem|abfolge|konn|kat)*>
-
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT part (#PCDATA)>
 <!ATTLIST part
-    type CDATA #IMPLIED
-  >
+  xmlns CDATA #FIXED ''
+  type NMTOKEN #REQUIRED>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT orth (part)*>
-<!ATTLIST orth
-    type CDATA #IMPLIED
-  >
+<!ELEMENT corr (#PCDATA)>
+<!ATTLIST corr
+  xmlns CDATA #FIXED ''>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT eintrag (syn|orth)*>
-<!ATTLIST eintrag
-    id CDATA #IMPLIED
-  >
+<!ELEMENT circum (#PCDATA)>
+<!ATTLIST circum
+  xmlns CDATA #FIXED ''>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT dimlex (eintrag)*>
+<!ELEMENT case (#PCDATA)>
+<!ATTLIST case
+  xmlns CDATA #FIXED ''
+  edit NMTOKEN #IMPLIED>
+
+<!ELEMENT insert (#PCDATA)>
+<!ATTLIST insert
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT desintegr (#PCDATA)>
+<!ATTLIST desintegr
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT example (#PCDATA)>
+<!ATTLIST example
+  xmlns CDATA #FIXED ''
+  tfreq CDATA #IMPLIED
+  type NMTOKEN #IMPLIED>
+
+<!ELEMENT ante (#PCDATA)>
+<!ATTLIST ante
+  xmlns CDATA #FIXED ''
+  edit NMTOKEN #IMPLIED>
+
+<!ELEMENT post (#PCDATA)>
+<!ATTLIST post
+  xmlns CDATA #FIXED ''
+  edit NMTOKEN #IMPLIED>
