@@ -5,7 +5,7 @@ A Lexicon of German discourse markers.
 This repository contains two versions of the lexicon.
 `DimLex.xml` contains the 'original' version.
 For the *ConAno* annotation tool
-(Stede and Heintze 2004, [download](https://www.ling.uni-potsdam.de/acl-lab/Forsch/pcc/Conano-Distrib.zip)),
+(Stede and Heintze 2004, [download](https://www.ling.uni-potsdam.de/acl-lab-old/Forsch/pcc/Conano-Distrib.zip)),
 the file `ConAnoConnectorLexicon.xml` was generated from the original
 using an XSLT stylesheet (`dimlex2conano.xsl`).
 (Slight modifications were made to the *ConAno* version after the conversion.)
