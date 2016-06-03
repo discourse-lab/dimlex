@@ -7167,6 +7167,38 @@
       </ordering>
     </syn>
   </entry>
+  <entry id="k297" word="stattdessen" edit="TODOTS">
+    <orths>
+      <orth type="cont" canonical="1" onr="k297o1">
+        <part type="single">stattdessen</part>
+      </orth>
+      <orth type="cont" canonical="0" onr="k297o2">
+        <part type="single">Stattdessen</part>
+      </orth>
+    </orths>
+    <disambi>
+      <conn_d>1</conn_d>
+      <sem_d>0</sem_d>
+    </disambi>
+    <conn_disambi>
+    </conn_disambi>
+    <focuspart/>
+    <correlate>
+      <is_correlate>0</is_correlate>
+      <has_correlate>0</has_correlate>
+    </correlate>
+    <non_conn_reading>
+      <example></example>
+    </non_conn_reading>
+    <syn>
+      <cat>konnadv</cat>
+      <ordering>
+        <ante></ante>
+        <post>1</post>
+        <insert>0</insert>
+      </ordering>
+    </syn>
+  </entry>
   <entry id="k274" word="teils" edit="TODOTS">
     <orths>
       <orth type="discont" canonical="1" onr="k274o1">
