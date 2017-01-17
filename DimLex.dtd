@@ -4,11 +4,9 @@
 <!ATTLIST dimlex
   xmlns CDATA #FIXED ''>
 
-<!ELEMENT entry (orths,disambi,focuspart,correlate,non_conn_reading,
-                 stts,syn+)>
+<!ELEMENT entry (orths,ambiguity,focuspart,non_conn_reading,stts,syn+)>
 <!ATTLIST entry
   xmlns CDATA #FIXED ''
-  edit NMTOKEN #IMPLIED
   id NMTOKEN #REQUIRED
   word CDATA #REQUIRED>
 
@@ -16,16 +14,12 @@
 <!ATTLIST orths
   xmlns CDATA #FIXED ''>
 
-<!ELEMENT disambi (conn_d,sem_d)>
-<!ATTLIST disambi
+<!ELEMENT ambiguity (non_conn,sem_ambiguity)>
+<!ATTLIST ambiguity
   xmlns CDATA #FIXED ''>
 
 <!ELEMENT focuspart (#PCDATA)>
 <!ATTLIST focuspart
-  xmlns CDATA #FIXED ''>
-
-<!ELEMENT correlate ((is_correlate,has_correlate)?,correlatee?)>
-<!ATTLIST correlate
   xmlns CDATA #FIXED ''>
 
 <!ELEMENT non_conn_reading (#PCDATA|example)*>
@@ -36,7 +30,7 @@
 <!ATTLIST stts
   xmlns CDATA #FIXED ''>
 
-<!ELEMENT syn (cat,praep?,ordering?)>
+<!ELEMENT syn (cat,praep?,(integr|ordering)+,sem+)>
 <!ATTLIST syn
   xmlns CDATA #FIXED ''>
 
@@ -47,26 +41,14 @@
   onr NMTOKEN #REQUIRED
   type NMTOKEN #REQUIRED>
 
-<!ELEMENT conn_d (#PCDATA)>
-<!ATTLIST conn_d
+<!ELEMENT non_conn (#PCDATA)>
+<!ATTLIST non_conn
   xmlns CDATA #FIXED ''
-  edit NMTOKEN #IMPLIED>
+  anno_N CDATA #IMPLIED
+  freq CDATA #IMPLIED>
 
-<!ELEMENT sem_d (#PCDATA)>
-<!ATTLIST sem_d
-  xmlns CDATA #FIXED ''
-  edit NMTOKEN #IMPLIED>
-
-<!ELEMENT is_correlate (#PCDATA)>
-<!ATTLIST is_correlate
-  xmlns CDATA #FIXED ''>
-
-<!ELEMENT has_correlate (#PCDATA)>
-<!ATTLIST has_correlate
-  xmlns CDATA #FIXED ''>
-
-<!ELEMENT correlatee (corr)+>
-<!ATTLIST correlatee
+<!ELEMENT sem_ambiguity (#PCDATA)>
+<!ATTLIST sem_ambiguity
   xmlns CDATA #FIXED ''>
 
 <!ELEMENT cat (#PCDATA)>
@@ -77,8 +59,18 @@
 <!ATTLIST praep
   xmlns CDATA #FIXED ''>
 
-<!ELEMENT ordering ((ante,post)?,insert?,desintegr?)>
+<!ELEMENT integr EMPTY>
+<!ATTLIST integr
+  xmlns CDATA #FIXED ''
+  edit NMTOKEN #IMPLIED>
+
+<!ELEMENT ordering ((ante,post,insert)?,desintegr?)>
 <!ATTLIST ordering
+  xmlns CDATA #FIXED ''
+  edit NMTOKEN #IMPLIED>
+
+<!ELEMENT sem (pdtb3_relation)?>
+<!ATTLIST sem
   xmlns CDATA #FIXED ''
   edit NMTOKEN #IMPLIED>
 
@@ -86,10 +78,6 @@
 <!ATTLIST part
   xmlns CDATA #FIXED ''
   type NMTOKEN #REQUIRED>
-
-<!ELEMENT corr (#PCDATA)>
-<!ATTLIST corr
-  xmlns CDATA #FIXED ''>
 
 <!ELEMENT circum (#PCDATA)>
 <!ATTLIST circum
@@ -107,6 +95,13 @@
 <!ELEMENT desintegr (#PCDATA)>
 <!ATTLIST desintegr
   xmlns CDATA #FIXED ''>
+
+<!ELEMENT pdtb3_relation EMPTY>
+<!ATTLIST pdtb3_relation
+  xmlns CDATA #FIXED ''
+  anno_N CDATA #REQUIRED
+  freq CDATA #REQUIRED
+  sense CDATA #REQUIRED>
 
 <!ELEMENT example (#PCDATA)>
 <!ATTLIST example

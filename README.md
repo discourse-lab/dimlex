@@ -46,3 +46,9 @@ Manfred Stede and Silvan Heintze.
 "Machine-assisted rhetorical structure annotation."
 *Proceedings of the 20th international conference on Computational Linguistics*.
 Association for Computational Linguistics, 2004. \[[pdf](http://www.aclweb.org/anthology/C/C04/C04-1061.pdf)\]
+
+Tatjana Scheffler and Manfred Stede. 
+"Adding Semantic Relations to a Large-Coverage Connective Lexicon of German." 
+*Proceedings of LREC*. 
+Portorož, Slovenia. 2016. 
+\[[pdf](http://www.lrec-conf.org/proceedings/lrec2016/pdf/274_Paper.pdf)\]

@@ -1,0 +1,39 @@
+- temporal
+
+synchronous
+asynchronous-precedence (Arg1 happens before Arg2)
+asynchronous-succession (Arg2 happens before Arg1)
+
+- contingency
+
+cause-reason
+cause-result
+purpose-arg1-as-goal
+purpose-arg2-as-goal
+condition-arg1-as-consequent
+condition-arg2-as-consequent
+negative-condition-arg1-as-consequent
+negative-condition-arg2-as-consequent
+
+- comparison
+
+contrast
+similarity
+concession-arg1-as-denier (expectation)
+concession-arg2-as-denier (contra-expectation)
+
+- expansion
+
+conjunction
+disjunction
+specification-arg1-as-detail (summarization)
+specification-arg2-as-detail (specification)
+equivalence
+instantiation
+exception-arg1-as-except
+exception-arg2-as-except
+substitution-arg1-as-subst
+substitution-arg2-as-subst
+manner-arg1-as-manner
+manner-arg2-as-manner
+
