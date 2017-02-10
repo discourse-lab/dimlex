@@ -1,3 +1,7 @@
+
+
+<!DOCTYPE dimlex
+  SYSTEM "dimlex.dtd">
 <dimlex>
    <entry id="k1" word="aber">
       <orths>
@@ -566,7 +570,7 @@
          <orth type="cont" canonical="1" onr="k207o1">
             <part type="single">angenommen</part>
          </orth>
-         <orth type="cont" canonical="0" onr="k201o2">
+         <orth type="cont" canonical="0" onr="k207o2">
             <part type="single">Angenommen</part>
          </orth>
       </orths>
@@ -2476,10 +2480,10 @@
          <orth type="cont" canonical="0" onr="k47o2">
             <part type="single">Darum</part>
          </orth>
-         <orth type="cont" canonical="1" onr="k47o1">
+         <orth type="cont" canonical="1" onr="k47o3">
             <part type="single">drum</part>
          </orth>
-         <orth type="cont" canonical="0" onr="k47o2">
+         <orth type="cont" canonical="0" onr="k47o4">
             <part type="single">Drum</part>
          </orth>
       </orths>
@@ -3371,12 +3375,12 @@
          </sem>
       </syn>
    </entry>
-   <entry id="k298" word="durch">
+   <entry id="k300" word="durch">
       <orths>
-         <orth type="cont" canonical="1" onr="k298o1">
+         <orth type="cont" canonical="1" onr="k300o1">
             <part type="single">durch</part>
          </orth>
-         <orth type="cont" canonical="0" onr="k298o2">
+         <orth type="cont" canonical="0" onr="k300o2">
             <part type="single">Durch</part>
          </orth>
       </orths>
@@ -4294,7 +4298,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="condition-arg1-as-consequence" freq="0" anno_N="25"/>
+            <pdtb3_relation sense="condition-arg1-as-consequent" freq="0" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -6004,8 +6008,6 @@
             <post>1</post>
             <insert>0</insert>
          </ordering>
-         <integr edit="TODO"/>
-         <ordering edit="TODO"/>
          <sem>
             <pdtb3_relation sense="" freq="" anno_N=""/>
          </sem>
@@ -8365,7 +8367,7 @@
    <entry id="k298" word="vorausgesetzt">
       <orths>
          <orth type="cont" canonical="1" onr="k298o1">
-            <part type="singlel">vorausgesetzt</part>
+            <part type="single">vorausgesetzt</part>
          </orth>
          <orth type="cont" canonical="0" onr="k298o2">
             <part type="single">Vorausgesetzt</part>
@@ -8662,7 +8664,7 @@
          </sem>
       </syn>
       <syn>
-         <cat>coordconj</cat>
+         <cat>konj</cat>
          <integr/>
          <ordering>
             <ante>0</ante>
