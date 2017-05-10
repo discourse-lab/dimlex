@@ -8,7 +8,7 @@ Schematically, each entry consists of the following data fields:
 
 A connective can be 'phrasal' or a 'single' item, furthermore, phrasal connectives can be 'cont'inuous or 'discont'inuous
 
-**`<ambiguity/>`** Information on whether this form also has a non-connective reading (`<non_conn/>`) and whether the connective has different semantic readings (`<sem_ambiguity/>`). If `<non_conn>1</non_conn>` is marked as `1` (true), the attributes show how often the non-connective reading was encountered (`"freq"`) among how many annotated instances (`"anno_N"`).
+**`<ambiguity/>`** Information on whether this form also has a non-connective reading (`<non_conn/>`) and whether the connective has different semantic readings (`<sem_ambiguity/>`). If `<non_conn>1</non_conn>` is marked as `1` (true), the attributes show how often the non-connective reading was encountered (`"freq"`) among how many annotated instances (`"anno_N"`). Note that for some examples (like `"bis`") we know (analytically) that there is a non-connective reading, but this reading was not encountered in the annotated examples. In this case, the value for non_conn is true, but there is no frequency information.
 
 **`<non_conn_reading/>`** Examples and possible POS tags of a usage of this item in its non-connective reading.
 
