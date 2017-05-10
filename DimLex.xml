@@ -844,7 +844,7 @@
          </orth>
       </orths>
       <ambiguity>
-         <non_conn freq="13" anno_N="50">0</non_conn>
+         <non_conn freq="13" anno_N="50">1</non_conn>
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
@@ -879,7 +879,7 @@
          </orth>
       </orths>
       <ambiguity>
-         <non_conn freq="1" anno_N="24">0</non_conn>
+         <non_conn freq="1" anno_N="24">1</non_conn>
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart>0</focuspart>
@@ -1181,7 +1181,7 @@
          </orth>
       </orths>
       <ambiguity>
-         <non_conn freq="21" anno_N="33">0</non_conn>
+         <non_conn freq="21" anno_N="33">1</non_conn>
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
@@ -1868,7 +1868,7 @@
          </orth>
       </orths>
       <ambiguity>
-         <non_conn freq="9" anno_N="25">0</non_conn>
+         <non_conn freq="9" anno_N="25">1</non_conn>
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart>0</focuspart>
@@ -6453,7 +6453,7 @@
          </orth>
       </orths>
       <ambiguity>
-         <non_conn freq="15" anno_N="15">0</non_conn>
+         <non_conn freq="15" anno_N="15">1</non_conn>
          <sem_ambiguity>?</sem_ambiguity>
       </ambiguity>
       <focuspart>0</focuspart>
