@@ -82,4 +82,8 @@
         </xsl:element>
     </xsl:template>
 
-    </xsl:stylesheet> 
+    <xsl:template match="dimlex|orths">
+      <xsl:apply-templates/>
+    </xsl:template>
+
+</xsl:stylesheet> 
