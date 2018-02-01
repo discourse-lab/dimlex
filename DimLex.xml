@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE dimlex
   SYSTEM "dimlex.dtd">
 <dimlex>
@@ -4876,7 +4874,7 @@
          </sem>
       </syn>
    </entry>
-   <entry id="k246" word="im Übringen">
+   <entry id="k246" word="im Übrigen">
       <orths>
          <orth type="cont" canonical="1" onr="k246o1">
             <part type="phrasal">im Übrigen</part>
