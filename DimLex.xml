@@ -1,7 +1,7 @@
 <!DOCTYPE dimlex
   SYSTEM "dimlex.dtd">
 <dimlex>
-   <entry id="k1" word="aber">
+  <entry id="k1" word="aber">
       <orths>
          <orth type="cont" canonical="1" onr="k1o1">
             <part type="single">aber</part>
@@ -32,16 +32,16 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="7" anno_N="18"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="7" anno_N="18"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="1" anno_N="18"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="1" anno_N="18"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="contrast" freq="8" anno_N="18"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="8" anno_N="18"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="2" anno_N="18"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="2" anno_N="18"/>
          </sem>
       </syn>
    </entry>
@@ -59,8 +59,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>padv</cat>
          <integr/>
@@ -70,16 +69,16 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="19" anno_N="26"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="19" anno_N="26"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="exception-arg1-as-except" freq="4" anno_N="26"/>
+            <pdtb3_relation sense="Expansion.Exception.Arg1-as-except" freq="4" anno_N="26"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="1" anno_N="26"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="1" anno_N="26"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="2" anno_N="26"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="2" anno_N="26"/>
          </sem>
       </syn>
    </entry>
@@ -103,8 +102,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -114,10 +112,10 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="17" anno_N="24"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="17" anno_N="24"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="exception-arg2-as-except" freq="7" anno_N="24"/>
+            <pdtb3_relation sense="Expansion.Exception.Arg2-as-except" freq="7" anno_N="24"/>
          </sem>
       </syn>
    </entry>
@@ -135,8 +133,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -147,10 +144,10 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="2" anno_N="4"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="2" anno_N="4"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="contrast" freq="2" anno_N="4"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="2" anno_N="4"/>
          </sem>
       </syn>
       <syn>
@@ -162,7 +159,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="0" anno_N="0"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="0" anno_N="0"/>
          </sem>
       </syn>
    </entry>
@@ -197,7 +194,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="contrast" freq="1" anno_N="1"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="1" anno_N="1"/>
          </sem>
       </syn>
    </entry>
@@ -228,7 +225,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="instantiation" freq="0" anno_N="51"/>
+            <pdtb3_relation sense="Expansion.Instantiation" freq="0" anno_N="51"/>
+         </sem>
+	 <sem>
+            <pdtb3_relation sense="Comparison.Contrast" freq="" anno_N=""/>
          </sem>
       </syn>
    </entry>
@@ -242,8 +242,7 @@
          </orth>
       </orths>
       <ambiguity>
-         <non_conn>0</non_conn>
-         <sem_ambiguity>1</sem_ambiguity>
+         <non_conn>1</non_conn><sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart>0</focuspart>
       <non_conn_reading>
@@ -264,13 +263,13 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="contrast" freq="22" anno_N="25"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="22" anno_N="25"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="2" anno_N="25"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="2" anno_N="25"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="1" anno_N="25"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="1" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -301,7 +300,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="5" anno_N="7"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="5" anno_N="7"/>
          </sem>
       </syn>
       <syn>
@@ -313,7 +312,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-succession" freq="2" anno_N="7"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Succession" freq="2" anno_N="7"/>
          </sem>
       </syn>
    </entry>
@@ -344,10 +343,10 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="similarity" freq="5" anno_N="12"/>
+            <pdtb3_relation sense="Expansion.Equivalence" freq="5" anno_N="12"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="7" anno_N="12"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="7" anno_N="12"/>
          </sem>
       </syn>
    </entry>
@@ -365,8 +364,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -376,7 +374,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="manner-arg2-as-manner" freq="15" anno_N="15"/>
+            <pdtb3_relation sense="Expansion.Manner.Arg2-as-manner" freq="15" anno_N="15"/>
          </sem>
       </syn>
    </entry>
@@ -394,8 +392,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -405,10 +402,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="15" anno_N="17"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="15" anno_N="17"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="2" anno_N="17"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="2" anno_N="17"/>
          </sem>
       </syn>
    </entry>
@@ -440,7 +437,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="14" anno_N="14"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="14" anno_N="14"/>
          </sem>
       </syn>
    </entry>
@@ -479,10 +476,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="contrast" freq="15" anno_N="19"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="15" anno_N="19"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="4" anno_N="19"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="4" anno_N="19"/>
          </sem>
       </syn>
    </entry>
@@ -520,7 +517,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="negative-condition-arg2-as-consequent" freq="48" anno_N="48"/>
+            <pdtb3_relation sense="Contingency.Negative-condition.Arg2-as-negCond" freq="48" anno_N="48"/>
          </sem>
       </syn>
       <syn>
@@ -528,7 +525,7 @@
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="negative-condition-arg2-as-consequent" freq="48" anno_N="48"/>
+            <pdtb3_relation sense="Contingency.Negative-condition.Arg2-as-negCond" freq="48" anno_N="48"/>
          </sem>
       </syn>
    </entry>
@@ -559,7 +556,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="equivalence" freq="22" anno_N="22"/>
+            <pdtb3_relation sense="Expansion.Equivalence" freq="22" anno_N="22"/>
          </sem>
       </syn>
    </entry>
@@ -586,7 +583,7 @@
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="condition-arg1-as-consequent" freq="24" anno_N="25"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="24" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -624,10 +621,10 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="manner-arg2-as-manner" freq="1" anno_N="25"/>
+            <pdtb3_relation sense="Expansion.Manner.Arg2-as-manner" freq="1" anno_N="25"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="condition-arg1-as-consequent" freq="0" anno_N="25"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="0" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -659,13 +656,13 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="13" anno_N="16"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="13" anno_N="16"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="3" anno_N="16"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="3" anno_N="16"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="1" anno_N="16"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="1" anno_N="16"/>
          </sem>
       </syn>
    </entry>
@@ -683,8 +680,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -694,7 +690,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="19" anno_N="19"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="19" anno_N="19"/>
          </sem>
       </syn>
    </entry>
@@ -718,8 +714,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -729,7 +724,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="11" anno_N="11"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="11" anno_N="11"/>
          </sem>
       </syn>
    </entry>
@@ -768,7 +763,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="manner-arg2-as-manner" freq="6" anno_N="6"/>
+            <pdtb3_relation sense="Expansion.Manner.Arg2-as-manner" freq="6" anno_N="6"/>
          </sem>
       </syn>
    </entry>
@@ -804,8 +799,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>praep</cat>
          <praep>
@@ -816,13 +810,13 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="17" anno_N="36"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="17" anno_N="36"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="16" anno_N="36"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="16" anno_N="36"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="2" anno_N="36"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="2" anno_N="36"/>
          </sem>
       </syn>
    </entry>
@@ -860,10 +854,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="35" anno_N="37"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="35" anno_N="37"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="2" anno_N="37"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="2" anno_N="37"/>
          </sem>
       </syn>
    </entry>
@@ -898,10 +892,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="exception-arg1-as-except" freq="18" anno_N="23"/>
+            <pdtb3_relation sense="Expansion.Exception.Arg1-as-except" freq="18" anno_N="23"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="negative-condition-arg2-as-consequent" freq="5" anno_N="23"/>
+            <pdtb3_relation sense="Contingency.Negative-condition.Arg2-as-negCond" freq="5" anno_N="23"/>
          </sem>
       </syn>
    </entry>
@@ -938,7 +932,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="substitution-arg1-as-subst" freq="22" anno_N="22"/>
+            <pdtb3_relation sense="Expansion.Substitution.Arg1-as-subst" freq="22" anno_N="22"/>
          </sem>
       </syn>
       <syn>
@@ -949,7 +943,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="substitution-arg1-as-subst" freq="22" anno_N="22"/>
+            <pdtb3_relation sense="Expansion.Substitution.Arg1-as-subst" freq="22" anno_N="22"/>
          </sem>
       </syn>
    </entry>
@@ -987,7 +981,7 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="substitution-arg1-as-subst" freq="22" anno_N="22"/>
+            <pdtb3_relation sense="Expansion.Substitution.Arg1-as-subst" freq="22" anno_N="22"/>
          </sem>
       </syn>
    </entry>
@@ -1025,7 +1019,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="substitution-arg2-as-subst" freq="13" anno_N="13"/>
+            <pdtb3_relation sense="Expansion.Substitution.Arg2-as-subst" freq="13" anno_N="13"/>
          </sem>
       </syn>
    </entry>
@@ -1059,7 +1053,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="18" anno_N="18"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="18" anno_N="18"/>
          </sem>
       </syn>
    </entry>
@@ -1093,10 +1087,10 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="6" anno_N="8"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="6" anno_N="8"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="purpose-arg1-as-goal" freq="2" anno_N="8"/>
+            <pdtb3_relation sense="Contingency.Purpose.Arg1-as-goal" freq="2" anno_N="8"/>
          </sem>
       </syn>
    </entry>
@@ -1114,14 +1108,13 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>postp</cat>
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="purpose-arg2-as-goal" freq="48" anno_N="48"/>
+            <pdtb3_relation sense="Contingency.Purpose.Arg2-as-goal" freq="48" anno_N="48"/>
          </sem>
       </syn>
    </entry>
@@ -1159,7 +1152,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="18" anno_N="18"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="18" anno_N="18"/>
          </sem>
       </syn>
    </entry>
@@ -1183,8 +1176,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>padv</cat>
          <integr/>
@@ -1194,10 +1186,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="11" anno_N="12"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="11" anno_N="12"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="1" anno_N="12"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="1" anno_N="12"/>
          </sem>
       </syn>
    </entry>
@@ -1277,8 +1269,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts>
+      <non_conn_reading/><stts>
          <example type="APPR" tfreq="0">Aufgrund dessen, dass es
         regnet, muessen alle Kinder in der Schule
         uebernachten.</example>
@@ -1292,7 +1283,7 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="3" anno_N="3"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="3" anno_N="3"/>
          </sem>
       </syn>
    </entry>
@@ -1306,8 +1297,7 @@
          </orth>
       </orths>
       <ambiguity>
-         <non_conn>0</non_conn>
-         <sem_ambiguity>0</sem_ambiguity>
+         <non_conn>1</non_conn><sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
       <non_conn_reading>
@@ -1324,7 +1314,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="exception-arg2-as-except" freq="0" anno_N="0"/>
+            <pdtb3_relation sense="Expansion.Exception.Arg2-as-except" freq="0" anno_N="0"/>
          </sem>
       </syn>
    </entry>
@@ -1361,7 +1351,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="exception-arg2-as-except" freq="1" anno_N="2"/>
+            <pdtb3_relation sense="Expansion.Exception.Arg2-as-except" freq="1" anno_N="2"/>
          </sem>
       </syn>
    </entry>
@@ -1398,7 +1388,7 @@
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="exception-arg2-as-except" freq="0" anno_N="25"/>
+            <pdtb3_relation sense="Expansion.Exception.Arg2-as-except" freq="0" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -1429,7 +1419,7 @@
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="exception-arg2-as-except" freq="" anno_N=""/>
+            <pdtb3_relation sense="Expansion.Exception.Arg2-as-except" freq="" anno_N=""/>
          </sem>
       </syn>
    </entry>
@@ -1467,7 +1457,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="exception-arg2-as-except" freq="24" anno_N="24"/>
+            <pdtb3_relation sense="Expansion.Exception.Arg2-as-except" freq="24" anno_N="24"/>
          </sem>
       </syn>
    </entry>
@@ -1487,8 +1477,7 @@
          </orth>
       </orths>
       <ambiguity>
-         <non_conn>0</non_conn>
-         <sem_ambiguity>0</sem_ambiguity>
+         <non_conn>1</non_conn><sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart>0</focuspart>
       <non_conn_reading>
@@ -1507,7 +1496,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="26" anno_N="26"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="26" anno_N="26"/>
          </sem>
       </syn>
    </entry>
@@ -1547,7 +1536,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="instantiation" freq="21" anno_N="21"/>
+            <pdtb3_relation sense="Expansion.Instantiation.Arg2-as-instance" freq="21" anno_N="21"/>
          </sem>
       </syn>
    </entry>
@@ -1579,10 +1568,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="instantiation" freq="8" anno_N="11"/>
+            <pdtb3_relation sense="Expansion.Instantiation.Arg2-as-instance" freq="8" anno_N="11"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="specification" freq="3" anno_N="11"/>
+            <pdtb3_relation sense="Expansion.Level-of-detail.Arg2-as-detail" freq="3" anno_N="11"/>
          </sem>
       </syn>
    </entry>
@@ -1617,7 +1606,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="24" anno_N="25"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="24" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -1656,13 +1645,13 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="specification-arg2-as-detail" freq="3" anno_N="8"/>
+            <pdtb3_relation sense="Expansion.Level-of-detail.Arg2-as-detail" freq="3" anno_N="8"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="disjunction" freq="3" anno_N="8"/>
+            <pdtb3_relation sense="Expansion.Disjunction" freq="3" anno_N="8"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="1" anno_N="8"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="1" anno_N="8"/>
          </sem>
       </syn>
    </entry>
@@ -1693,7 +1682,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="0" anno_N="0"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="0" anno_N="0"/>
          </sem>
       </syn>
    </entry>
@@ -1717,8 +1706,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -1728,10 +1716,10 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="20" anno_N="22"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="20" anno_N="22"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="purpose-arg2-as-goal" freq="2" anno_N="22"/>
+            <pdtb3_relation sense="Contingency.Purpose.Arg2-as-goal" freq="2" anno_N="22"/>
          </sem>
       </syn>
    </entry>
@@ -1768,7 +1756,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="0" anno_N="31"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="0" anno_N="31"/>
          </sem>
       </syn>
    </entry>
@@ -1804,20 +1792,19 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>postp</cat>
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="exception-arg2-as-except" freq="16" anno_N="21"/>
+            <pdtb3_relation sense="Expansion.Exception.Arg2-as-except" freq="16" anno_N="21"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="3" anno_N="21"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="3" anno_N="21"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="contrast" freq="2" anno_N="21"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="2" anno_N="21"/>
          </sem>
       </syn>
    </entry>
@@ -1849,10 +1836,10 @@
             <desintegr>1</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="9" anno_N="10"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="9" anno_N="10"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="1" anno_N="10"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="1" anno_N="10"/>
          </sem>
       </syn>
    </entry>
@@ -1887,16 +1874,16 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="10" anno_N="16"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="10" anno_N="16"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="4" anno_N="16"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="4" anno_N="16"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="manner-arg2-as-manner" freq="1" anno_N="16"/>
+            <pdtb3_relation sense="Expansion.Manner.Arg2-as-manner" freq="1" anno_N="16"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="1" anno_N="16"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="1" anno_N="16"/>
          </sem>
       </syn>
    </entry>
@@ -1928,10 +1915,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="17" anno_N="17"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="17" anno_N="17"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="manner-arg1-as-manner" freq="1" anno_N="17"/>
+            <pdtb3_relation sense="Expansion.Manner.Arg1-as-manner" freq="1" anno_N="17"/>
          </sem>
       </syn>
    </entry>
@@ -1967,8 +1954,7 @@
          </orth>
       </orths>
       <ambiguity>
-         <non_conn>0</non_conn>
-         <sem_ambiguity>1</sem_ambiguity>
+         <non_conn>1</non_conn><sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart>0</focuspart>
       <non_conn_reading>
@@ -1988,10 +1974,10 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="manner-arg2-as-manner" freq="15" anno_N="25"/>
+            <pdtb3_relation sense="Expansion.Manner.Arg2-as-manner" freq="15" anno_N="25"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="10" anno_N="25"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="10" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -2028,7 +2014,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="contrast" freq="3" anno_N="3"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="3" anno_N="3"/>
          </sem>
       </syn>
    </entry>
@@ -2113,7 +2099,7 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="contrast" freq="1" anno_N="1"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="1" anno_N="1"/>
          </sem>
       </syn>
    </entry>
@@ -2148,7 +2134,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="contrast" freq="21" anno_N="21"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="21" anno_N="21"/>
          </sem>
       </syn>
    </entry>
@@ -2179,7 +2165,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="24" anno_N="24"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="24" anno_N="24"/>
          </sem>
       </syn>
    </entry>
@@ -2197,8 +2183,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>padv</cat>
          <integr/>
@@ -2208,7 +2193,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="contrast" freq="9" anno_N="9"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="9" anno_N="9"/>
          </sem>
       </syn>
    </entry>
@@ -2240,7 +2225,7 @@
             <desintegr>1</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="purpose-arg2-as-goal" freq="3" anno_N="18"/>
+            <pdtb3_relation sense="Contingency.Purpose.Arg2-as-goal" freq="3" anno_N="18"/>
          </sem>
       </syn>
       <syn>
@@ -2252,7 +2237,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="15" anno_N="18"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="15" anno_N="18"/>
          </sem>
       </syn>
    </entry>
@@ -2284,7 +2269,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="33" anno_N="33"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="33" anno_N="33"/>
          </sem>
       </syn>
    </entry>
@@ -2315,7 +2300,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="12" anno_N="12"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="12" anno_N="12"/>
          </sem>
       </syn>
    </entry>
@@ -2348,7 +2333,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="25" anno_N="25"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="25" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -2379,16 +2364,19 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="condition-arg2-as-consequent" freq="9" anno_N="31"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg1-as-cond" freq="9" anno_N="31"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="20" anno_N="31"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="20" anno_N="31"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="1" anno_N="31"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="1" anno_N="31"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="1" anno_N="31"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="1" anno_N="31"/>
+         </sem>
+	 <sem>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="" anno_N=""/>
          </sem>
       </syn>
    </entry>
@@ -2428,7 +2416,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="3" anno_N="3"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="3" anno_N="3"/>
          </sem>
       </syn>
    </entry>
@@ -2460,13 +2448,13 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="7" anno_N="24"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="7" anno_N="24"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="16" anno_N="24"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="16" anno_N="24"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="6" anno_N="24"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="6" anno_N="24"/>
          </sem>
       </syn>
    </entry>
@@ -2504,7 +2492,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="6" anno_N="6"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="6" anno_N="6"/>
          </sem>
       </syn>
    </entry>
@@ -2546,7 +2534,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="19" anno_N="19"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="19" anno_N="19"/>
          </sem>
       </syn>
    </entry>
@@ -2594,10 +2582,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="equivalence" freq="10" anno_N="11"/>
+            <pdtb3_relation sense="Expansion.Equivalence" freq="10" anno_N="11"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="1" anno_N="11"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="1" anno_N="11"/>
          </sem>
       </syn>
    </entry>
@@ -2624,7 +2612,7 @@
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="purpose-arg2-as-goal" freq="0" anno_N="0"/>
+            <pdtb3_relation sense="Contingency.Purpose.Arg2-as-goal" freq="0" anno_N="0"/>
          </sem>
       </syn>
       <syn>
@@ -2637,7 +2625,7 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="0" anno_N="0"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="0" anno_N="0"/>
          </sem>
       </syn>
    </entry>
@@ -2668,10 +2656,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="exception-arg1-as-except" freq="10" anno_N="15"/>
+            <pdtb3_relation sense="Expansion.Exception.Arg1-as-except" freq="10" anno_N="15"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="5" anno_N="15"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="5" anno_N="15"/>
          </sem>
       </syn>
    </entry>
@@ -2708,13 +2696,13 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="21" anno_N="25"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="21" anno_N="25"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="exception-arg2-as-except" freq="3" anno_N="25"/>
+            <pdtb3_relation sense="Expansion.Exception.Arg2-as-except" freq="3" anno_N="25"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="1" anno_N="25"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="1" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -2745,7 +2733,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-succession" freq="10" anno_N="10"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Succession" freq="10" anno_N="10"/>
          </sem>
       </syn>
    </entry>
@@ -2777,10 +2765,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="purpose-arg1-as-goal" freq="5" anno_N="7"/>
+            <pdtb3_relation sense="Contingency.Purpose.Arg1-as-goal" freq="5" anno_N="7"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="2" anno_N="7"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="2" anno_N="7"/>
          </sem>
       </syn>
    </entry>
@@ -2817,7 +2805,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="0" anno_N="0"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="0" anno_N="0"/>
          </sem>
       </syn>
    </entry>
@@ -2835,8 +2823,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>padv</cat>
          <integr/>
@@ -2846,7 +2833,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="contrast" freq="6" anno_N="6"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="6" anno_N="6"/>
          </sem>
       </syn>
    </entry>
@@ -2864,8 +2851,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>padv
       </cat>
@@ -2876,7 +2862,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="17" anno_N="17"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="17" anno_N="17"/>
          </sem>
       </syn>
    </entry>
@@ -2915,10 +2901,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="contrast" freq="16" anno_N="19"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="16" anno_N="19"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="3" anno_N="19"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="3" anno_N="19"/>
          </sem>
       </syn>
    </entry>
@@ -2942,8 +2928,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>padv
       </cat>
@@ -2954,7 +2939,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="15" anno_N="15"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="15" anno_N="15"/>
          </sem>
       </syn>
    </entry>
@@ -2972,8 +2957,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>padv
       </cat>
@@ -2984,7 +2968,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="8" anno_N="8"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="8" anno_N="8"/>
          </sem>
       </syn>
    </entry>
@@ -3002,8 +2986,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>padv</cat>
          <integr/>
@@ -3013,7 +2996,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="17" anno_N="17"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="17" anno_N="17"/>
          </sem>
       </syn>
    </entry>
@@ -3045,7 +3028,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="18" anno_N="18"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="18" anno_N="18"/>
          </sem>
       </syn>
    </entry>
@@ -3077,7 +3060,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="22" anno_N="22"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="22" anno_N="22"/>
          </sem>
       </syn>
    </entry>
@@ -3101,8 +3084,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -3112,10 +3094,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="12" anno_N="14"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="12" anno_N="14"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="2" anno_N="14"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="2" anno_N="14"/>
          </sem>
       </syn>
       <syn>
@@ -3127,10 +3109,10 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="12" anno_N="14"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="12" anno_N="14"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="2" anno_N="14"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="2" anno_N="14"/>
          </sem>
       </syn>
    </entry>
@@ -3168,7 +3150,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="9" anno_N="9"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="9" anno_N="9"/>
          </sem>
       </syn>
    </entry>
@@ -3201,7 +3183,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="4" anno_N="4"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="4" anno_N="4"/>
          </sem>
       </syn>
    </entry>
@@ -3219,8 +3201,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>padv</cat>
          <integr/>
@@ -3230,7 +3211,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="25" anno_N="25"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="25" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -3273,10 +3254,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="18" anno_N="22"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="18" anno_N="22"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="4" anno_N="22"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="4" anno_N="22"/>
          </sem>
       </syn>
    </entry>
@@ -3294,8 +3275,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>padv</cat>
          <integr/>
@@ -3305,7 +3285,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="24" anno_N="24"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="24" anno_N="24"/>
          </sem>
       </syn>
    </entry>
@@ -3337,10 +3317,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="12" anno_N="21"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="12" anno_N="21"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="contrast" freq="9" anno_N="21"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="9" anno_N="21"/>
          </sem>
       </syn>
    </entry>
@@ -3358,8 +3338,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -3369,7 +3348,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="6" anno_N="6"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="6" anno_N="6"/>
          </sem>
       </syn>
    </entry>
@@ -3402,7 +3381,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="1" anno_N="26"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="1" anno_N="26"/>
          </sem>
       </syn>
    </entry>
@@ -3433,10 +3412,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="11" anno_N="15"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="11" anno_N="15"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="asynchronous-succession" freq="4" anno_N="15"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Succession" freq="4" anno_N="15"/>
          </sem>
       </syn>
    </entry>
@@ -3468,10 +3447,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="8" anno_N="20"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="8" anno_N="20"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="similarity" freq="12" anno_N="20"/>
+            <pdtb3_relation sense="Expansion.Equivalence" freq="12" anno_N="20"/>
          </sem>
       </syn>
    </entry>
@@ -3512,7 +3491,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="similarity" freq="9" anno_N="9"/>
+            <pdtb3_relation sense="Expansion.Equivalence" freq="9" anno_N="9"/>
          </sem>
       </syn>
    </entry>
@@ -3530,8 +3509,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -3541,7 +3519,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="2" anno_N="25"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="2" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -3555,8 +3533,7 @@
          </orth>
       </orths>
       <ambiguity>
-         <non_conn>0</non_conn>
-         <sem_ambiguity>0</sem_ambiguity>
+         <non_conn>1</non_conn><sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
       <non_conn_reading>
@@ -3572,7 +3549,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="25" anno_N="25"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="25" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -3590,8 +3567,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -3601,7 +3577,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="contrast" freq="23" anno_N="23"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="23" anno_N="23"/>
          </sem>
       </syn>
    </entry>
@@ -3632,7 +3608,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="0" anno_N="0"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="0" anno_N="0"/>
          </sem>
       </syn>
    </entry>
@@ -3669,7 +3645,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="2" anno_N="2"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="2" anno_N="2"/>
          </sem>
       </syn>
    </entry>
@@ -3701,7 +3677,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="1" anno_N="1"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="1" anno_N="1"/>
          </sem>
       </syn>
    </entry>
@@ -3721,8 +3697,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konj</cat>
          <integr/>
@@ -3732,7 +3707,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="disjunction" freq="16" anno_N="16"/>
+            <pdtb3_relation sense="Expansion.Disjunction" freq="16" anno_N="16"/>
          </sem>
       </syn>
    </entry>
@@ -3750,8 +3725,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -3761,7 +3735,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="6" anno_N="6"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="6" anno_N="6"/>
          </sem>
       </syn>
    </entry>
@@ -3779,8 +3753,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -3790,7 +3763,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="24" anno_N="24"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="24" anno_N="24"/>
          </sem>
       </syn>
    </entry>
@@ -3808,8 +3781,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -3819,7 +3791,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-succession" freq="2" anno_N="2"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Succession" freq="2" anno_N="2"/>
          </sem>
       </syn>
    </entry>
@@ -3837,8 +3809,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>einzel</cat>
          <integr/>
@@ -3848,7 +3819,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="negative-condition-arg1-as-consequent" freq="25" anno_N="25"/>
+            <pdtb3_relation sense="Contingency.Negative-condition.Arg2-as-negCond" freq="25" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -3883,7 +3854,7 @@
             <desintegr>1</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="condition-arg1-as-consequent" freq="50" anno_N="50"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="50" anno_N="50"/>
          </sem>
       </syn>
    </entry>
@@ -3919,7 +3890,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="37" anno_N="37"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="37" anno_N="37"/>
          </sem>
       </syn>
    </entry>
@@ -3937,8 +3908,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -3948,7 +3918,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="19" anno_N="19"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="19" anno_N="19"/>
          </sem>
       </syn>
    </entry>
@@ -3966,8 +3936,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -3977,7 +3946,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="44" anno_N="44"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="44" anno_N="44"/>
          </sem>
       </syn>
    </entry>
@@ -3995,8 +3964,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -4006,19 +3974,19 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="1" anno_N="32"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="1" anno_N="32"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="6" anno_N="32"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="6" anno_N="32"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="contrast" freq="18" anno_N="32"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="18" anno_N="32"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="exception-arg2-as-except" freq="6" anno_N="32"/>
+            <pdtb3_relation sense="Expansion.Exception.Arg2-as-except" freq="6" anno_N="32"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="specification-arg2-as-detail" freq="1" anno_N="32"/>
+            <pdtb3_relation sense="Expansion.Level-of-detail.Arg2-as-detail" freq="1" anno_N="32"/>
          </sem>
       </syn>
    </entry>
@@ -4056,7 +4024,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="purpose-arg2-as-goal" freq="1" anno_N="1"/>
+            <pdtb3_relation sense="Contingency.Purpose.Arg2-as-goal" freq="1" anno_N="1"/>
          </sem>
       </syn>
    </entry>
@@ -4092,8 +4060,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -4103,7 +4070,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="condition-arg1-as-consequent" freq="14" anno_N="14"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="14" anno_N="14"/>
          </sem>
       </syn>
    </entry>
@@ -4142,7 +4109,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="5" anno_N="5"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="5" anno_N="5"/>
          </sem>
       </syn>
    </entry>
@@ -4179,7 +4146,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="specification-arg2-as-detail" freq="20" anno_N="20"/>
+            <pdtb3_relation sense="Expansion.Level-of-detail.Arg2-as-detail" freq="20" anno_N="20"/>
          </sem>
       </syn>
    </entry>
@@ -4203,8 +4170,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>einzel</cat>
          <integr/>
@@ -4214,7 +4180,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="11" anno_N="11"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="11" anno_N="11"/>
          </sem>
       </syn>
    </entry>
@@ -4234,8 +4200,7 @@
          </orth>
       </orths>
       <ambiguity>
-         <non_conn>0</non_conn>
-         <sem_ambiguity>0</sem_ambiguity>
+         <non_conn>1</non_conn><sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
       <non_conn_reading>
@@ -4247,7 +4212,7 @@
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="condition-arg2-as-consequent" freq="23" anno_N="23"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg1-as-cond" freq="23" anno_N="23"/>
          </sem>
       </syn>
    </entry>
@@ -4296,7 +4261,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="condition-arg1-as-consequent" freq="0" anno_N="25"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="0" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -4333,7 +4298,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="similarity" freq="2" anno_N="2"/>
+            <pdtb3_relation sense="Expansion.Equivalence" freq="2" anno_N="2"/>
          </sem>
       </syn>
    </entry>
@@ -4364,7 +4329,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="similarity" freq="11" anno_N="11"/>
+            <pdtb3_relation sense="Expansion.Equivalence" freq="11" anno_N="11"/>
          </sem>
       </syn>
    </entry>
@@ -4399,7 +4364,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="22" anno_N="22"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="22" anno_N="22"/>
          </sem>
       </syn>
       <syn>
@@ -4411,7 +4376,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="0" anno_N="22"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="0" anno_N="22"/>
          </sem>
       </syn>
    </entry>
@@ -4442,13 +4407,13 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="contrast" freq="9" anno_N="37"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="9" anno_N="37"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="3" anno_N="37"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="3" anno_N="37"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="25" anno_N="37"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="25" anno_N="37"/>
          </sem>
       </syn>
    </entry>
@@ -4477,7 +4442,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="purpose-arg2-as-goal" freq="0" anno_N="0"/>
+            <pdtb3_relation sense="Contingency.Purpose.Arg2-as-goal" freq="0" anno_N="0"/>
          </sem>
       </syn>
    </entry>
@@ -4505,7 +4470,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="2" anno_N="2"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="2" anno_N="2"/>
          </sem>
       </syn>
    </entry>
@@ -4535,7 +4500,7 @@
          <cat>konnadv</cat>
          <integr/>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="5" anno_N="5"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="5" anno_N="5"/>
          </sem>
       </syn>
    </entry>
@@ -4563,7 +4528,7 @@
          <cat>padv</cat>
          <integr/>
          <sem>
-            <pdtb3_relation sense="asynchronous-succession" freq="22" anno_N="25"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Succession" freq="22" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -4581,8 +4546,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>padv</cat>
          <integr/>
@@ -4592,10 +4556,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="manner-arg1-as-manner" freq="5" anno_N="21"/>
+            <pdtb3_relation sense="Expansion.Manner.Arg1-as-manner" freq="5" anno_N="21"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="16" anno_N="21"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="16" anno_N="21"/>
          </sem>
          <sem edit="TODO"/>
       </syn>
@@ -4633,7 +4597,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="purpose-arg1-as-goal" freq="4" anno_N="4"/>
+            <pdtb3_relation sense="Contingency.Purpose.Arg1-as-goal" freq="4" anno_N="4"/>
          </sem>
       </syn>
    </entry>
@@ -4664,7 +4628,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="manner-arg1-as-manner" freq="2" anno_N="2"/>
+            <pdtb3_relation sense="Expansion.Manner.Arg1-as-manner" freq="2" anno_N="2"/>
          </sem>
       </syn>
    </entry>
@@ -4699,10 +4663,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="2" anno_N="10"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="2" anno_N="10"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="8" anno_N="10"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="8" anno_N="10"/>
          </sem>
       </syn>
    </entry>
@@ -4733,7 +4697,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="purpose-arg1-as-goal" freq="4" anno_N="4"/>
+            <pdtb3_relation sense="Contingency.Purpose.Arg1-as-goal" freq="4" anno_N="4"/>
          </sem>
       </syn>
    </entry>
@@ -4765,7 +4729,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="contrast" freq="23" anno_N="23"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="23" anno_N="23"/>
          </sem>
       </syn>
    </entry>
@@ -4796,7 +4760,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="13" anno_N="13"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="13" anno_N="13"/>
          </sem>
       </syn>
    </entry>
@@ -4833,7 +4797,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="negative-condition-arg1-as-consequent" freq="0" anno_N="25"/>
+            <pdtb3_relation sense="Contingency.Negative-condition.Arg2-as-negCond" freq="0" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -4864,13 +4828,13 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="2" anno_N="15"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="2" anno_N="15"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="contrast" freq="1" anno_N="15"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="1" anno_N="15"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="12" anno_N="15"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="12" anno_N="15"/>
          </sem>
       </syn>
    </entry>
@@ -4894,8 +4858,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -4905,10 +4868,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="12" anno_N="14"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="12" anno_N="14"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="exception-arg1-as-except" freq="2" anno_N="14"/>
+            <pdtb3_relation sense="Expansion.Exception.Arg1-as-except" freq="2" anno_N="14"/>
          </sem>
       </syn>
    </entry>
@@ -4926,8 +4889,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>padv</cat>
          <integr/>
@@ -4937,7 +4899,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="2" anno_N="2"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="2" anno_N="2"/>
          </sem>
       </syn>
    </entry>
@@ -4961,8 +4923,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -4972,7 +4933,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="2" anno_N="2"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="2" anno_N="2"/>
          </sem>
       </syn>
    </entry>
@@ -5005,7 +4966,7 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="manner-arg2-as-manner" freq="24" anno_N="24"/>
+            <pdtb3_relation sense="Expansion.Manner.Arg2-as-manner" freq="24" anno_N="24"/>
          </sem>
       </syn>
    </entry>
@@ -5029,8 +4990,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>padv</cat>
          <integr/>
@@ -5040,10 +5000,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="7" anno_N="21"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="7" anno_N="21"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="contrast" freq="14" anno_N="21"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="14" anno_N="21"/>
          </sem>
       </syn>
       <syn>
@@ -5055,10 +5015,10 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="7" anno_N="21"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="7" anno_N="21"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="contrast" freq="14" anno_N="21"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="14" anno_N="21"/>
          </sem>
       </syn>
    </entry>
@@ -5076,8 +5036,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>praep</cat>
          <praep>
@@ -5088,7 +5047,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="2" anno_N="2"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="2" anno_N="2"/>
          </sem>
       </syn>
    </entry>
@@ -5106,8 +5065,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>padv</cat>
          <integr/>
@@ -5117,7 +5075,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="18" anno_N="18"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="18" anno_N="18"/>
          </sem>
       </syn>
    </entry>
@@ -5135,8 +5093,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -5146,7 +5103,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="instantiation" freq="10" anno_N="10"/>
+            <pdtb3_relation sense="Expansion.Instantiation.Arg2-as-instance" freq="10" anno_N="10"/>
          </sem>
       </syn>
    </entry>
@@ -5164,8 +5121,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -5176,7 +5132,7 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="" freq="" anno_N=""/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="" anno_N=""/>
          </sem>
       </syn>
       <syn>
@@ -5208,8 +5164,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -5220,7 +5175,7 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="15" anno_N="15"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="15" anno_N="15"/>
          </sem>
       </syn>
    </entry>
@@ -5238,8 +5193,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity><!-- TBT: insoweit (...) als -->
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>padv</cat>
          <integr/>
@@ -5275,7 +5229,7 @@
          </orth>
       </orths>
       <ambiguity>
-         <non_conn>0</non_conn>
+         <non_conn>1</non_conn>
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart>0</focuspart>
@@ -5293,10 +5247,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="13" anno_N="19"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="13" anno_N="19"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="6" anno_N="19"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="6" anno_N="19"/>
          </sem>
       </syn>
    </entry>
@@ -5314,8 +5268,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -5325,10 +5278,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="contrast" freq="18" anno_N="22"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="18" anno_N="22"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="4" anno_N="22"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="4" anno_N="22"/>
          </sem>
       </syn>
    </entry>
@@ -5346,8 +5299,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>einzel</cat>
          <integr/>
@@ -5357,7 +5309,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="condition-arg1-as-consequent" freq="24" anno_N="24"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="24" anno_N="24"/>
          </sem>
       </syn>
       <syn>
@@ -5369,7 +5321,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="condition-arg1-as-consequent" freq="24" anno_N="24"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="24" anno_N="24"/>
          </sem>
       </syn>
    </entry>
@@ -5400,7 +5352,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-succession" freq="2" anno_N="2"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Succession" freq="2" anno_N="2"/>
          </sem>
       </syn>
       <syn>
@@ -5412,7 +5364,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-succession" freq="2" anno_N="2"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Succession" freq="2" anno_N="2"/>
          </sem>
       </syn>
    </entry>
@@ -5436,8 +5388,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -5447,7 +5398,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-succession" freq="23" anno_N="23"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Succession" freq="23" anno_N="23"/>
          </sem>
       </syn>
    </entry>
@@ -5465,8 +5416,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -5476,13 +5426,13 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="22" anno_N="25"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="22" anno_N="25"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="condition-arg2-as-consequent" freq="2" anno_N="25"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg1-as-cond" freq="2" anno_N="25"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="1" anno_N="25"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="1" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -5514,7 +5464,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="manner-arg2-as-manner" freq="1" anno_N="1"/>
+            <pdtb3_relation sense="Expansion.Manner.Arg2-as-manner" freq="1" anno_N="1"/>
          </sem>
       </syn>
    </entry>
@@ -5545,7 +5495,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="specification-arg1-as-detail" freq="17" anno_N="17"/>
+            <pdtb3_relation sense="Expansion.Level-of-detail.Arg1-as-detail" freq="17" anno_N="17"/>
          </sem>
       </syn>
    </entry>
@@ -5577,7 +5527,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="0" anno_N="50"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="0" anno_N="50"/>
          </sem>
       </syn>
    </entry>
@@ -5609,7 +5559,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="10" anno_N="10"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="10" anno_N="10"/>
          </sem>
       </syn>
    </entry>
@@ -5629,8 +5579,7 @@
          </orth>
       </orths>
       <ambiguity>
-         <non_conn>0</non_conn>
-         <sem_ambiguity>0</sem_ambiguity>
+         <non_conn>1</non_conn><sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
       <non_conn_reading>
@@ -5646,7 +5595,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="equivalence" freq="25" anno_N="25"/>
+            <pdtb3_relation sense="Expansion.Equivalence" freq="25" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -5664,8 +5613,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -5675,10 +5623,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="13" anno_N="15"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="13" anno_N="15"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="2" anno_N="15"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="2" anno_N="15"/>
          </sem>
       </syn>
    </entry>
@@ -5696,8 +5644,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -5708,7 +5655,7 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-succession" freq="25" anno_N="25"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Succession" freq="25" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -5739,7 +5686,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="17" anno_N="17"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="17" anno_N="17"/>
          </sem>
       </syn>
    </entry>
@@ -5770,10 +5717,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="7" anno_N="10"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="7" anno_N="10"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="3" anno_N="10"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="3" anno_N="10"/>
          </sem>
       </syn>
    </entry>
@@ -5804,7 +5751,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="22" anno_N="22"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="22" anno_N="22"/>
          </sem>
       </syn>
    </entry>
@@ -5838,10 +5785,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="2" anno_N="16"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="2" anno_N="16"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="16" anno_N="16"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="16" anno_N="16"/>
          </sem>
       </syn>
    </entry>
@@ -5872,7 +5819,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="16" anno_N="16"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="16" anno_N="16"/>
          </sem>
       </syn>
    </entry>
@@ -5890,8 +5837,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -5901,7 +5847,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="0" anno_N="0"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="0" anno_N="0"/>
          </sem>
       </syn>
    </entry>
@@ -5940,7 +5886,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="18" anno_N="18"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="18" anno_N="18"/>
          </sem>
       </syn>
    </entry>
@@ -5958,8 +5904,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -5969,13 +5914,13 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="3" anno_N="4"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="3" anno_N="4"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="2" anno_N="4"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="2" anno_N="4"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="1" anno_N="4"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="1" anno_N="4"/>
          </sem>
       </syn>
    </entry>
@@ -6038,7 +5983,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="contrast" freq="0" anno_N="0"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="0" anno_N="0"/>
+         </sem>
+	 <sem>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="" anno_N=""/>
          </sem>
       </syn>
    </entry>
@@ -6073,7 +6021,7 @@
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="contrast" freq="22" anno_N="22"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="22" anno_N="22"/>
          </sem>
       </syn>
    </entry>
@@ -6097,8 +6045,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart>0</focuspart>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -6108,10 +6055,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="12" anno_N="17"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="12" anno_N="17"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="specification-arg2-as-detail" freq="5" anno_N="17"/>
+            <pdtb3_relation sense="Expansion.Level-of-detail.Arg2-as-detail" freq="5" anno_N="17"/>
          </sem>
       </syn>
    </entry>
@@ -6193,7 +6140,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="13" anno_N="13"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="13" anno_N="13"/>
          </sem>
       </syn>
    </entry>
@@ -6226,10 +6173,10 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="15" anno_N="20"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="15" anno_N="20"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="5" anno_N="20"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="5" anno_N="20"/>
          </sem>
       </syn>
    </entry>
@@ -6263,7 +6210,7 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="22" anno_N="22"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="22" anno_N="22"/>
          </sem>
       </syn>
    </entry>
@@ -6297,7 +6244,7 @@
             <desintegr>1</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="21" anno_N="21"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="21" anno_N="21"/>
          </sem>
       </syn>
    </entry>
@@ -6331,10 +6278,10 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="17" anno_N="18"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="17" anno_N="18"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="1" anno_N="18"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="1" anno_N="18"/>
          </sem>
       </syn>
    </entry>
@@ -6369,7 +6316,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="disjunction" freq="12" anno_N="12"/>
+            <pdtb3_relation sense="Expansion.Disjunction" freq="12" anno_N="12"/>
          </sem>
       </syn>
    </entry>
@@ -6393,8 +6340,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -6405,7 +6351,7 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="25" anno_N="25"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="25" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -6437,7 +6383,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="2" anno_N="19"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="2" anno_N="19"/>
          </sem>
       </syn>
    </entry>
@@ -6469,7 +6415,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="0" anno_N="15"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="0" anno_N="15"/>
          </sem>
       </syn>
    </entry>
@@ -6501,7 +6447,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="manner-arg2-as-manner" freq="2" anno_N="2"/>
+            <pdtb3_relation sense="Expansion.Manner.Arg2-as-manner" freq="2" anno_N="2"/>
          </sem>
       </syn>
    </entry>
@@ -6519,8 +6465,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart>0</focuspart>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -6530,10 +6475,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="9" anno_N="19"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="9" anno_N="19"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="10" anno_N="19"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="10" anno_N="19"/>
          </sem>
       </syn>
    </entry>
@@ -6551,8 +6496,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -6562,10 +6506,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="8" anno_N="9"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="8" anno_N="9"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="1" anno_N="9"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="1" anno_N="9"/>
          </sem>
       </syn>
    </entry>
@@ -6596,7 +6540,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="instantiation" freq="2" anno_N="25"/>
+            <pdtb3_relation sense="Expansion.Level-of-detail.Arg2-as-detail" freq="2" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -6633,7 +6577,7 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-succession" freq="0" anno_N="0"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Succession" freq="0" anno_N="0"/>
          </sem>
       </syn>
       <syn>
@@ -6646,7 +6590,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="asynchronous-succession" freq="0" anno_N="0"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Succession" freq="0" anno_N="0"/>
          </sem>
       </syn>
    </entry>
@@ -6664,8 +6608,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart>0</focuspart>
-      <non_conn_reading>0</non_conn_reading>
-      <stts><!--beispiel type="KOUS" tfreq="2"/>
+      <non_conn_reading/><stts><!--beispiel type="KOUS" tfreq="2"/>
         <beispiel type="ADV" tfreq="1"/-->
          <example type="PROAV" tfreq="7">Ich war schon einmal im Sudan
         und seitdem wird sich nicht viel geaendert haben.</example>
@@ -6679,7 +6622,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="20" anno_N="24"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="20" anno_N="24"/>
          </sem>
       </syn>
       <syn>
@@ -6692,7 +6635,7 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-succession" freq="4" anno_N="24"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Succession" freq="4" anno_N="24"/>
          </sem>
       </syn>
    </entry>
@@ -6725,10 +6668,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="14" anno_N="19"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="14" anno_N="19"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="5" anno_N="19"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="5" anno_N="19"/>
          </sem>
       </syn>
    </entry>
@@ -6752,8 +6695,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -6764,7 +6706,7 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="1" anno_N="1"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="1" anno_N="1"/>
          </sem>
       </syn>
    </entry>
@@ -6801,7 +6743,7 @@
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="11" anno_N="11"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="11" anno_N="11"/>
          </sem>
       </syn>
    </entry>
@@ -6871,7 +6813,7 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="24" anno_N="24"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="24" anno_N="24"/>
          </sem>
       </syn>
    </entry>
@@ -6904,13 +6846,13 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="13" anno_N="18"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="13" anno_N="18"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="condition-arg2-as-consequent" freq="1" anno_N="18"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg1-as-cond" freq="1" anno_N="18"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="4" anno_N="18"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="4" anno_N="18"/>
          </sem>
       </syn>
    </entry>
@@ -6934,17 +6876,16 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart>0</focuspart>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>postp</cat>
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="20" anno_N="25"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="20" anno_N="25"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="purpose-arg2-as-goal" freq="5" anno_N="25"/>
+            <pdtb3_relation sense="Contingency.Purpose.Arg2-as-goal" freq="5" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -6977,7 +6918,7 @@
             <desintegr>1</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="condition-arg1-as-consequent" freq="25" anno_N="25"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="25" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -7008,10 +6949,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="10" anno_N="15"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="10" anno_N="15"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="5" anno_N="15"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="5" anno_N="15"/>
          </sem>
       </syn>
    </entry>
@@ -7048,13 +6989,13 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="3" anno_N="9"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="3" anno_N="9"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="condition-arg1-as-consequent" freq="5" anno_N="9"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="5" anno_N="9"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="asynchronous-succession" freq="1" anno_N="9"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Succession" freq="1" anno_N="9"/>
          </sem>
       </syn>
    </entry>
@@ -7074,14 +7015,13 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>postp</cat>
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="3" anno_N="11"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="3" anno_N="11"/>
          </sem>
       </syn>
    </entry>
@@ -7099,8 +7039,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -7110,16 +7049,16 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="14" anno_N="22"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="14" anno_N="22"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="manner-arg1-as-manner" freq="3" anno_N="22"/>
+            <pdtb3_relation sense="Expansion.Manner.Arg1-as-manner" freq="3" anno_N="22"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="specification-arg1-as-detail" freq="2" anno_N="22"/>
+            <pdtb3_relation sense="Expansion.Level-of-detail.Arg1-as-detail" freq="2" anno_N="22"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="equivalence" freq="3" anno_N="22"/>
+            <pdtb3_relation sense="Expansion.Equivalence" freq="3" anno_N="22"/>
          </sem>
       </syn>
    </entry>
@@ -7137,8 +7076,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -7148,7 +7086,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="2" anno_N="2"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="2" anno_N="2"/>
          </sem>
       </syn>
    </entry>
@@ -7182,10 +7120,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="substitution-arg2-as-subst" freq="4" anno_N="7"/>
+            <pdtb3_relation sense="Expansion.Substitution.Arg2-as-subst" freq="4" anno_N="7"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="3" anno_N="7"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="3" anno_N="7"/>
          </sem>
       </syn>
    </entry>
@@ -7218,7 +7156,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="negative-condition-arg2-as-consequent" freq="10" anno_N="10"/>
+            <pdtb3_relation sense="Contingency.Negative-condition.Arg2-as-negCond" freq="10" anno_N="10"/>
          </sem>
       </syn>
    </entry>
@@ -7236,8 +7174,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -7247,10 +7184,10 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="2" anno_N="16"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="2" anno_N="16"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="condition-arg1-as-consequent" freq="14" anno_N="16"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="14" anno_N="16"/>
          </sem>
       </syn>
    </entry>
@@ -7268,8 +7205,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -7279,10 +7215,10 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="contrast" freq="5" anno_N="25"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="5" anno_N="25"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="20" anno_N="25"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="20" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -7319,7 +7255,7 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="condition-arg1-as-consequent" freq="6" anno_N="6"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="6" anno_N="6"/>
          </sem>
       </syn>
    </entry>
@@ -7337,8 +7273,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -7348,7 +7283,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="2" anno_N="2"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="2" anno_N="2"/>
          </sem>
       </syn>
       <syn>
@@ -7360,7 +7295,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="" anno_N=""/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="" anno_N=""/>
          </sem>
       </syn>
    </entry>
@@ -7378,8 +7313,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -7389,7 +7323,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="3" anno_N="3"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="3" anno_N="3"/>
          </sem>
       </syn>
    </entry>
@@ -7446,7 +7380,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="" anno_N=""/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="" anno_N=""/>
          </sem>
       </syn>
    </entry>
@@ -7486,7 +7420,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="8" anno_N="8"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="8" anno_N="8"/>
          </sem>
       </syn>
    </entry>
@@ -7517,7 +7451,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="equivalence" freq="1" anno_N="1"/>
+            <pdtb3_relation sense="Expansion.Equivalence" freq="1" anno_N="1"/>
          </sem>
       </syn>
    </entry>
@@ -7555,7 +7489,7 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="substitution-arg1-as-subst" freq="4" anno_N="4"/>
+            <pdtb3_relation sense="Expansion.Substitution.Arg1-as-subst" freq="4" anno_N="4"/>
          </sem>
       </syn>
       <syn>
@@ -7567,7 +7501,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="substitution-arg1-as-subst" freq="" anno_N=""/>
+            <pdtb3_relation sense="Expansion.Substitution.Arg1-as-subst" freq="" anno_N=""/>
          </sem>
       </syn>
    </entry>
@@ -7598,7 +7532,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="substitution-arg2-as-subst" freq="21" anno_N="25"/>
+            <pdtb3_relation sense="Expansion.Substitution.Arg2-as-subst" freq="21" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -7631,7 +7565,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="1" anno_N="1"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="1" anno_N="1"/>
          </sem>
       </syn>
    </entry>
@@ -7668,7 +7602,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="10" anno_N="10"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="10" anno_N="10"/>
          </sem>
       </syn>
    </entry>
@@ -7701,7 +7635,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="21" anno_N="21"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="21" anno_N="21"/>
          </sem>
       </syn>
       <syn>
@@ -7713,7 +7647,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="" anno_N=""/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="" anno_N=""/>
          </sem>
       </syn>
    </entry>
@@ -7747,7 +7681,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="purpose-arg2-as-goal" freq="3" anno_N="3"/>
+            <pdtb3_relation sense="Contingency.Purpose.Arg2-as-goal" freq="3" anno_N="3"/>
          </sem>
       </syn>
    </entry>
@@ -7785,7 +7719,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="24" anno_N="24"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="24" anno_N="24"/>
          </sem>
       </syn>
    </entry>
@@ -7822,7 +7756,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="5" anno_N="5"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="5" anno_N="5"/>
          </sem>
       </syn>
    </entry>
@@ -7860,7 +7794,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="2" anno_N="2"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="2" anno_N="2"/>
          </sem>
       </syn>
    </entry>
@@ -7890,7 +7824,7 @@
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="10" anno_N="10"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="10" anno_N="10"/>
          </sem>
       </syn>
    </entry>
@@ -7910,14 +7844,13 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>postp</cat>
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="11" anno_N="11"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="11" anno_N="11"/>
          </sem>
       </syn>
    </entry>
@@ -7937,17 +7870,16 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>postp</cat>
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="18" anno_N="20"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="18" anno_N="20"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="2" anno_N="20"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="2" anno_N="20"/>
          </sem>
       </syn>
    </entry>
@@ -7965,8 +7897,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -7976,7 +7907,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="1" anno_N="1"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="1" anno_N="1"/>
          </sem>
       </syn>
    </entry>
@@ -8000,8 +7931,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -8011,7 +7941,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="1" anno_N="1"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="1" anno_N="1"/>
          </sem>
       </syn>
    </entry>
@@ -8045,13 +7975,16 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="5" anno_N="9"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="5" anno_N="9"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="3" anno_N="9"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="3" anno_N="9"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="contrast" freq="1" anno_N="9"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="1" anno_N="9"/>
+         </sem>
+	 <sem>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="" anno_N=""/>
          </sem>
       </syn>
    </entry>
@@ -8069,8 +8002,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -8080,7 +8012,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="specification-arg2-as-detail" freq="" anno_N=""/>
+            <pdtb3_relation sense="Expansion.Level-of-detail.Arg2-as-detail" freq="" anno_N=""/>
          </sem>
       </syn>
    </entry>
@@ -8128,8 +8060,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -8139,10 +8070,10 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="20" anno_N="24"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="20" anno_N="24"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="4" anno_N="24"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="4" anno_N="24"/>
          </sem>
       </syn>
    </entry>
@@ -8174,10 +8105,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="contrast" freq="6" anno_N="24"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="6" anno_N="24"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="18" anno_N="24"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="18" anno_N="24"/>
          </sem>
       </syn>
    </entry>
@@ -8215,7 +8146,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="condition-arg1-as-consequent" freq="" anno_N=""/>
+            <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="" anno_N=""/>
          </sem>
       </syn>
    </entry>
@@ -8274,8 +8205,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart>0</focuspart>
-      <non_conn_reading>0</non_conn_reading>
-      <stts>
+      <non_conn_reading/><stts>
          <example type="ADV" tfreq="57">Er denkt, er ist komisch.
         Vielmehr macht er sich mit seinen Witzchen zu einem
         Hampelmann.</example>
@@ -8289,10 +8219,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="substitution-arg2-as-subst" freq="20" anno_N="21"/>
+            <pdtb3_relation sense="Expansion.Substitution.Arg2-as-subst" freq="20" anno_N="21"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="1" anno_N="21"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="1" anno_N="21"/>
          </sem>
       </syn>
    </entry>
@@ -8326,7 +8256,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="" anno_N=""/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="" anno_N=""/>
          </sem>
       </syn>
    </entry>
@@ -8358,7 +8288,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="21" anno_N="21"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="21" anno_N="21"/>
          </sem>
       </syn>
    </entry>
@@ -8394,7 +8324,7 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="condition-arg1-as-consequent" freq="9" anno_N="25"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="9" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -8435,7 +8365,7 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="condition-arg1-as-consequent" freq="16" anno_N="16"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="16" anno_N="16"/>
          </sem>
       </syn>
    </entry>
@@ -8453,8 +8383,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>padv</cat>
          <integr/>
@@ -8464,7 +8393,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="condition-arg2-as-consequent" freq="0" anno_N="0"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg1-as-cond" freq="0" anno_N="0"/>
          </sem>
       </syn>
    </entry>
@@ -8488,8 +8417,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -8499,7 +8427,7 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="condition-arg1-as-consequent" freq="0" anno_N="0"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="0" anno_N="0"/>
          </sem>
       </syn>
    </entry>
@@ -8534,7 +8462,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-succession" freq="3" anno_N="3"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Succession" freq="3" anno_N="3"/>
          </sem>
       </syn>
    </entry>
@@ -8558,7 +8486,7 @@
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="0" anno_N="0"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="0" anno_N="0"/>
          </sem>
       </syn>
    </entry>
@@ -8594,7 +8522,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="2" anno_N="2"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="2" anno_N="2"/>
          </sem>
       </syn>
    </entry>
@@ -8628,7 +8556,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="5" anno_N="5"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="5" anno_N="5"/>
          </sem>
       </syn>
    </entry>
@@ -8646,8 +8574,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart>1</focuspart>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>subj</cat>
          <integr/>
@@ -8658,7 +8585,7 @@
             <desintegr>1</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="26" anno_N="26"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="26" anno_N="26"/>
          </sem>
       </syn>
       <syn>
@@ -8670,7 +8597,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="" anno_N=""/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="" anno_N=""/>
          </sem>
       </syn>
    </entry>
@@ -8703,7 +8630,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="3" anno_N="3"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="3" anno_N="3"/>
          </sem>
       </syn>
    </entry>
@@ -8733,10 +8660,10 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="11" anno_N="28"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="11" anno_N="28"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="condition-arg1-as-consequent" freq="15" anno_N="28"/>
+            <pdtb3_relation sense="Contingency.Condition.Arg2-as-cond" freq="15" anno_N="28"/>
          </sem>
       </syn>
    </entry>
@@ -8778,10 +8705,10 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="3" anno_N="4"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="3" anno_N="4"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="1" anno_N="4"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="1" anno_N="4"/>
          </sem>
       </syn>
    </entry>
@@ -8814,10 +8741,10 @@
             <desintegr>1</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="11" anno_N="19"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="11" anno_N="19"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="8" anno_N="19"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="8" anno_N="19"/>
          </sem>
       </syn>
    </entry>
@@ -8845,7 +8772,7 @@
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="0" anno_N="0"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="0" anno_N="0"/>
          </sem>
       </syn>
    </entry>
@@ -8872,7 +8799,7 @@
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="22" anno_N="22"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="22" anno_N="22"/>
          </sem>
       </syn>
    </entry>
@@ -8909,10 +8836,10 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="0" anno_N="0"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="0" anno_N="0"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="similarity" freq="1" anno_N="1"/>
+            <pdtb3_relation sense="Expansion.Equivalence" freq="1" anno_N="1"/>
          </sem>
       </syn>
    </entry>
@@ -8930,8 +8857,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -8941,13 +8867,13 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="11" anno_N="19"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="11" anno_N="19"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="1" anno_N="19"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="1" anno_N="19"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="contrast" freq="7" anno_N="19"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="7" anno_N="19"/>
          </sem>
       </syn>
    </entry>
@@ -8978,10 +8904,10 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="2" anno_N="3"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="2" anno_N="3"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="1" anno_N="3"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="1" anno_N="3"/>
          </sem>
       </syn>
    </entry>
@@ -8999,23 +8925,25 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>postp</cat>
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="5" anno_N="24"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="5" anno_N="24"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="specification-arg2-as-detail" freq="9" anno_N="24"/>
+            <pdtb3_relation sense="Expansion.Level-of-detail.Arg2-as-detail" freq="9" anno_N="24"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg2-as-denier" freq="8" anno_N="24"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg2-as-denier" freq="8" anno_N="24"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="2" anno_N="24"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="2" anno_N="24"/>
+         </sem>
+	 <sem>
+            <pdtb3_relation sense="Expansion.Manner.Arg2-as-manner" freq="" anno_N=""/>
          </sem>
       </syn>
    </entry>
@@ -9042,10 +8970,10 @@
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="12" anno_N="18"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="12" anno_N="18"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="manner-arg1-as-manner" freq="6" anno_N="18"/>
+            <pdtb3_relation sense="Expansion.Manner.Arg1-as-manner" freq="6" anno_N="18"/>
          </sem>
       </syn>
    </entry>
@@ -9075,7 +9003,7 @@
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="contrast" freq="9" anno_N="9"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="9" anno_N="9"/>
          </sem>
       </syn>
    </entry>
@@ -9093,20 +9021,19 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>postp</cat>
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="contrast" freq="22" anno_N="24"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="22" anno_N="24"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="1" anno_N="24"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="1" anno_N="24"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="1" anno_N="24"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="1" anno_N="24"/>
          </sem>
       </syn>
    </entry>
@@ -9137,13 +9064,13 @@
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="6" anno_N="15"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="6" anno_N="15"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="manner-arg1-as-manner" freq="7" anno_N="15"/>
+            <pdtb3_relation sense="Expansion.Manner.Arg1-as-manner" freq="7" anno_N="15"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="2" anno_N="15"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="2" anno_N="15"/>
          </sem>
       </syn>
    </entry>
@@ -9174,7 +9101,7 @@
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="" anno_N=""/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="" anno_N=""/>
          </sem>
       </syn>
    </entry>
@@ -9205,7 +9132,7 @@
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="8" anno_N="8"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="8" anno_N="8"/>
          </sem>
       </syn>
    </entry>
@@ -9219,8 +9146,7 @@
          </orth>
       </orths>
       <ambiguity>
-         <non_conn>0</non_conn>
-         <sem_ambiguity>0</sem_ambiguity>
+         <non_conn>1</non_conn><sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart>0</focuspart>
       <non_conn_reading>
@@ -9236,10 +9162,10 @@
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="25" anno_N="25"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="25" anno_N="25"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="0" anno_N="25"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="0" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -9280,10 +9206,10 @@
             <desintegr>0</desintegr>
          </ordering>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="9" anno_N="17"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="9" anno_N="17"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="contrast" freq="8" anno_N="17"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="8" anno_N="17"/>
          </sem>
       </syn>
       <syn>
@@ -9296,7 +9222,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="" anno_N=""/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="" anno_N=""/>
          </sem>
       </syn>
    </entry>
@@ -9316,8 +9242,7 @@
          </orth>
       </orths>
       <ambiguity>
-         <non_conn>0</non_conn>
-         <sem_ambiguity>1</sem_ambiguity>
+         <non_conn>1</non_conn><sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart>0</focuspart>
       <non_conn_reading>
@@ -9337,10 +9262,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="21" anno_N="22"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="21" anno_N="22"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="contrast" freq="1" anno_N="22"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="1" anno_N="22"/>
          </sem>
       </syn>
       <syn>
@@ -9352,10 +9277,10 @@
             <insert>1</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="21" anno_N="22"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="21" anno_N="22"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="contrast" freq="1" anno_N="22"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="1" anno_N="22"/>
          </sem>
       </syn>
    </entry>
@@ -9375,14 +9300,13 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>postp</cat>
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-result" freq="18" anno_N="18"/>
+            <pdtb3_relation sense="Contingency.Cause.Result" freq="18" anno_N="18"/>
          </sem>
       </syn>
    </entry>
@@ -9415,7 +9339,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="25" anno_N="25"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="25" anno_N="25"/>
          </sem>
       </syn>
    </entry>
@@ -9433,8 +9357,7 @@
          <sem_ambiguity>0</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>padv</cat>
          <integr/>
@@ -9444,7 +9367,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-succession" freq="6" anno_N="6"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Succession" freq="6" anno_N="6"/>
          </sem>
       </syn>
    </entry>
@@ -9479,13 +9402,13 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="synchronous" freq="3" anno_N="13"/>
+            <pdtb3_relation sense="Temporal.Synchronous" freq="3" anno_N="13"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="9" anno_N="13"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="9" anno_N="13"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="contrast" freq="1" anno_N="13"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="1" anno_N="13"/>
          </sem>
       </syn>
    </entry>
@@ -9516,10 +9439,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="5" anno_N="11"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="5" anno_N="11"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="6" anno_N="11"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="6" anno_N="11"/>
          </sem>
       </syn>
    </entry>
@@ -9550,7 +9473,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="" anno_N=""/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="" anno_N=""/>
          </sem>
       </syn>
    </entry>
@@ -9581,10 +9504,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="7" anno_N="8"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="7" anno_N="8"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="contrast" freq="1" anno_N="8"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="1" anno_N="8"/>
          </sem>
       </syn>
    </entry>
@@ -9622,7 +9545,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="instantiation" freq="16" anno_N="16"/>
+            <pdtb3_relation sense="Expansion.Instantiation.Arg2-as-instance" freq="16" anno_N="16"/>
          </sem>
       </syn>
    </entry>
@@ -9653,10 +9576,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="16" anno_N="17"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="16" anno_N="17"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="contrast" freq="1" anno_N="17"/>
+            <pdtb3_relation sense="Comparison.Contrast" freq="1" anno_N="17"/>
          </sem>
       </syn>
    </entry>
@@ -9674,8 +9597,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart>0</focuspart>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -9685,7 +9607,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="specification-arg2-as-detail" freq="1" anno_N="19"/>
+            <pdtb3_relation sense="Expansion.Level-of-detail.Arg2-as-detail" freq="1" anno_N="19"/>
          </sem>
       </syn>
       <syn>
@@ -9693,7 +9615,7 @@
          <integr/>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="cause-reason" freq="18" anno_N="19"/>
+            <pdtb3_relation sense="Contingency.Cause.Reason" freq="18" anno_N="19"/>
          </sem>
       </syn>
    </entry>
@@ -9735,10 +9657,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-succession" freq="7" anno_N="8"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Succession" freq="7" anno_N="8"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="1" anno_N="8"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="1" anno_N="8"/>
          </sem>
       </syn>
    </entry>
@@ -9779,7 +9701,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="3" anno_N="3"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="3" anno_N="3"/>
          </sem>
       </syn>
    </entry>
@@ -9816,7 +9738,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-succession" freq="19" anno_N="19"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Succession" freq="19" anno_N="19"/>
          </sem>
       </syn>
    </entry>
@@ -9850,7 +9772,7 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="concession-arg1-as-denier" freq="24" anno_N="24"/>
+            <pdtb3_relation sense="Comparison.Concession.Arg1-as-denier" freq="24" anno_N="24"/>
          </sem>
       </syn>
    </entry>
@@ -9882,7 +9804,7 @@
          </praep>
          <ordering/>
          <sem>
-            <pdtb3_relation sense="purpose-arg2-as-goal" freq="15" anno_N="15"/>
+            <pdtb3_relation sense="Contingency.Purpose.Arg2-as-goal" freq="15" anno_N="15"/>
          </sem>
       </syn>
    </entry>
@@ -9900,8 +9822,7 @@
          <sem_ambiguity>1</sem_ambiguity>
       </ambiguity>
       <focuspart/>
-      <non_conn_reading>0</non_conn_reading>
-      <stts/>
+      <non_conn_reading/><stts/>
       <syn>
          <cat>konnadv</cat>
          <integr/>
@@ -9911,10 +9832,10 @@
             <insert>0</insert>
          </ordering>
          <sem>
-            <pdtb3_relation sense="asynchronous-precedence" freq="1" anno_N="23"/>
+            <pdtb3_relation sense="Temporal.Asynchronous.Precedence" freq="1" anno_N="23"/>
          </sem>
          <sem>
-            <pdtb3_relation sense="conjunction" freq="22" anno_N="23"/>
+            <pdtb3_relation sense="Expansion.Conjunction" freq="22" anno_N="23"/>
          </sem>
       </syn>
    </entry>
