@@ -8,6 +8,7 @@ Temporal.Asynchronous.Succession (Arg2 happens before Arg1)
 
 Contingency.Cause.Reason
 Contingency.Cause.Result
+Contingency.Cause.NegResult
 Contingency.Purpose.Arg1-as-goal
 Contingency.Purpose.Arg2-as-goal
 Contingency.Condition.Arg1-as-cond
