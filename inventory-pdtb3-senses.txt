@@ -1,39 +1,40 @@
 - temporal
 
-synchronous
-asynchronous-precedence (Arg1 happens before Arg2)
-asynchronous-succession (Arg2 happens before Arg1)
+Temporal.Synchronous
+Temporal.Asynchronous.Precedence (Arg1 happens before Arg2)
+Temporal.Asynchronous.Succession (Arg2 happens before Arg1)
 
 - contingency
 
-cause-reason
-cause-result
-purpose-arg1-as-goal
-purpose-arg2-as-goal
-condition-arg1-as-consequent
-condition-arg2-as-consequent
-negative-condition-arg1-as-consequent
-negative-condition-arg2-as-consequent
+Contingency.Cause.Reason
+Contingency.Cause.Result
+Contingency.Purpose.Arg1-as-goal
+Contingency.Purpose.Arg2-as-goal
+Contingency.Condition.Arg1-as-cond
+Contingency.Condition.Arg2-as-cond
+Contingency.Negative-condition.Arg1-as-negCond
+Contingency.Negative-condition.Arg2-as-negCond
 
 - comparison
 
-contrast
-similarity
-concession-arg1-as-denier (expectation)
-concession-arg2-as-denier (contra-expectation)
+Comparison.Contrast
+Comparison.Similarity
+Comparison.Concession.Arg1-as-denier (expectation)
+Comparison.Concession.Arg2-as-denier (contra-expectation)
 
 - expansion
 
-conjunction
-disjunction
-specification-arg1-as-detail (summarization)
-specification-arg2-as-detail (specification)
-equivalence
-instantiation
-exception-arg1-as-except
-exception-arg2-as-except
-substitution-arg1-as-subst
-substitution-arg2-as-subst
-manner-arg1-as-manner
-manner-arg2-as-manner
+Expansion.Conjunction
+Expansion.Disjunction
+Expansion.Level-of-detail.Arg1-as-detail (summarization)
+Expansion.Level-of-detail.Arg2-as-detail (specification)
+Expansion.Equivalence
+Expansion.Instantiation.Arg1-as-instance
+Expansion.Instantiation.Arg2-as-instance
+Expansion.Exception.Arg1-as-except
+Expansion.Exception.Arg2-as-except
+Expansion.Substitution.Arg1-as-subst
+Expansion.Substitution.Arg2-as-subst
+Expansion.Manner.Arg1-as-manner
+Expansion.Manner.Arg2-as-manner
 
