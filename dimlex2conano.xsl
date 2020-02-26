@@ -10,15 +10,15 @@
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-    <xsl:output indent="yes" method="xml" encoding="utf-8" omit-xml-declaration="no" />
+    <xsl:output indent="yes" method="xml" encoding="utf-8" omit-xml-declaration="no" doctype-system="ConAnoLex.dtd" />
     <xsl:strip-space elements="*"/>
     
     <xsl:template match="/">
-        <xsl:text disable-output-escaping="yes">&lt;?relations relSet="Martin1992"?&gt;</xsl:text>
-        <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE conanolex SYSTEM "ConAnoLex.dtd"&gt;</xsl:text>
-    </xsl:template>
-
-    <xsl:template match="/">
+       <xsl:processing-instruction name="relations">
+	 <xsl:text>relSet="Martin1992"</xsl:text>
+       </xsl:processing-instruction>
+       <xsl:text>
+</xsl:text>
        <xsl:element name="conanolex">
         <xsl:apply-templates/>
        </xsl:element>
